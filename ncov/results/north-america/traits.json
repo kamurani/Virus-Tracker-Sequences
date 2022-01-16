@@ -1,0 +1,3790 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Asia",
+        "Europe",
+        "Jamaica",
+        "Oceania",
+        "South America",
+        "USA",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.0716989832439239,
+        0.1260926298033193,
+        0.13541524190264723,
+        0.11576745366663463,
+        0.17049648167995937,
+        0.3805292097035156
+      ],
+      "rate": 219.30652749575853,
+      "transition_matrix": [
+        [
+          0.0,
+          1.5485146625794612,
+          0.465102547058005,
+          0.7614441902600071,
+          0.6949096673836023,
+          4.925266894964276
+        ],
+        [
+          1.5485146625794612,
+          0.0,
+          0.4656627836031259,
+          0.6537331019976464,
+          0.4652961224443797,
+          2.0544372061198977
+        ],
+        [
+          0.465102547058005,
+          0.4656627836031259,
+          0.0,
+          0.4662013819106179,
+          0.4660873689189257,
+          0.6896040141518628
+        ],
+        [
+          0.7614441902600071,
+          0.6537331019976464,
+          0.4662013819106179,
+          0.0,
+          0.4658897161342561,
+          2.58764284053496
+        ],
+        [
+          0.6949096673836023,
+          0.4652961224443797,
+          0.4660873689189257,
+          0.4658897161342561,
+          0.0,
+          0.4535293673467744
+        ],
+        [
+          4.925266894964276,
+          2.0544372061198977,
+          0.6896040141518628,
+          2.58764284053496,
+          0.4535293673467744,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "Australia/VIC1038/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1045/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC1062/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "Australia/VIC1135/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC14/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "Australia/VIC174/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC207/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC241/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC92/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "China/Beijing_IME-BJ05/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "China/WHUHnCoV020/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "China/Wuhan_YB012611/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "ENV/USA/UF-11/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "France/10015BY/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "France/10041MR/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "France/10060KV/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "France/40003KA/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Germany/BavPat1-ChVir929/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Germany/BavPat3-ChVir1020/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Greece/139_32716/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Greece/227_35969/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Greece/259_31928/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Greece/37_35684/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Guam/GU-NHG-01/2020": {
+      "country": "Oceania",
+      "country_confidence": {
+        "Oceania": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Hangzhou/HZ-1/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC14/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC21/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC26/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC29/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC51/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC88a/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC96/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GBRC97a/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GMC-KP1125/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "India/GMCKN318/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "India/GMCTC469/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Iran/HGRC-1.1-IPI-8206/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Jamaica/JM-CDC-7286/2020": {
+      "country": "Jamaica",
+      "country_confidence": {
+        "Jamaica": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Japan/P4-6/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Malaysia/189332/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9551379394466801,
+        "Europe": 0.002167542155502478,
+        "USA": 0.04099343593178271
+      },
+      "country_entropy": 0.20063204463039525
+    },
+    "NODE_0000002": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9907619853197946,
+        "USA": 0.009001665095739155
+      },
+      "country_entropy": 0.053770651578021626
+    },
+    "NODE_0000003": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.0329641948908852,
+        "Europe": 0.036460749116968026,
+        "Oceania": 0.005140458332294576,
+        "USA": 0.9251429534931174
+      },
+      "country_entropy": 0.3348639034345111
+    },
+    "NODE_0000006": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9751961306775411,
+        "USA": 0.024072029361985305
+      },
+      "country_entropy": 0.12005387757363616
+    },
+    "NODE_0000007": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.8750154512609372,
+        "Europe": 0.0011360923494627697,
+        "USA": 0.12316075103040788
+      },
+      "country_entropy": 0.38786543672028473
+    },
+    "NODE_0000008": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.8751715304751823,
+        "Europe": 0.0011202085736800186,
+        "USA": 0.12301615947629811
+      },
+      "country_entropy": 0.3874932839920756
+    },
+    "NODE_0000010": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.018106686098713277,
+        "Europe": 0.0027957062336345997,
+        "Oceania": 0.004324269746998899,
+        "USA": 0.9746064591187727
+      },
+      "country_entropy": 0.13923439145693012
+    },
+    "NODE_0000011": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.07518929762227641,
+        "Europe": 0.002927716731657076,
+        "Oceania": 0.00429572862886992,
+        "USA": 0.9173946932445695
+      },
+      "country_entropy": 0.31592934717205173
+    },
+    "NODE_0000012": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.0238842095729557,
+        "Europe": 0.0022721177850644056,
+        "Oceania": 0.0035752287591544044,
+        "USA": 0.9701082208135443
+      },
+      "country_entropy": 0.15410984741889044
+    },
+    "NODE_0000013": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.025398934884546278,
+        "Oceania": 0.0027350128370800864,
+        "USA": 0.9712084223436874
+      },
+      "country_entropy": 0.14269764877836935
+    },
+    "NODE_0000014": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.029017301128047658,
+        "Europe": 0.0026455563356422153,
+        "Oceania": 0.0042322822049240165,
+        "USA": 0.9639315418212446
+      },
+      "country_entropy": 0.1785673238337273
+    },
+    "NODE_0000015": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.014518609935281212,
+        "Europe": 0.0021668113158281365,
+        "Oceania": 0.0035661506157950414,
+        "USA": 0.9795961816935753
+      },
+      "country_entropy": 0.11646584312132033
+    },
+    "NODE_0000016": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9848429964662581,
+        "USA": 0.014788472542979771
+      },
+      "country_entropy": 0.08060045701842357
+    },
+    "NODE_0000017": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9146044377694313,
+        "Oceania": 0.0013763641445913141,
+        "USA": 0.0829330270608224
+      },
+      "country_entropy": 0.3050156133402766
+    },
+    "NODE_0000018": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.30905227632405136,
+        "Europe": 0.004141620827024869,
+        "Oceania": 0.03395818702922166,
+        "USA": 0.6524212559675151
+      },
+      "country_entropy": 0.7827268514008823
+    },
+    "NODE_0000019": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02871655757587346,
+        "Europe": 0.004177467617502943,
+        "Oceania": 0.004585908218751196,
+        "USA": 0.9623394648966747
+      },
+      "country_entropy": 0.18814245951259817
+    },
+    "NODE_0000020": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.1705419558449036,
+        "Europe": 0.005051878638025567,
+        "Oceania": 0.19882085626766846,
+        "USA": 0.6249500885193647
+      },
+      "country_entropy": 0.9484236715095756
+    },
+    "NODE_0000021": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.20401384695795252,
+        "Europe": 0.005709200970510597,
+        "Oceania": 0.04160176075255552,
+        "USA": 0.7483289002986296
+      },
+      "country_entropy": 0.70600912754227
+    },
+    "NODE_0000023": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.013766278460372965,
+        "Europe": 0.0018781028785162229,
+        "Oceania": 0.003319146898942474,
+        "USA": 0.9808954856112397
+      },
+      "country_entropy": 0.10998948580850346
+    },
+    "NODE_0000024": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.43695408654900947,
+        "Europe": 0.012830430221577208,
+        "Oceania": 0.010118017412263907,
+        "USA": 0.5397630038278123
+      },
+      "country_entropy": 0.7998706898621057
+    },
+    "NODE_0000025": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.18753651469031635,
+        "Europe": 0.05022227243618161,
+        "Oceania": 0.0074447136654606635,
+        "USA": 0.7544098205196811
+      },
+      "country_entropy": 0.7165148827639224
+    },
+    "NODE_0000026": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.981135759665353,
+        "USA": 0.018627162214709114
+      },
+      "country_entropy": 0.0948810259192666
+    },
+    "NODE_0000027": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.0831742341002434,
+        "Europe": 0.21321860750549193,
+        "Oceania": 0.006844570669525741,
+        "USA": 0.6961036618870795
+      },
+      "country_entropy": 0.8279125109556812
+    },
+    "NODE_0000028": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.015593137206772972,
+        "Europe": 0.0069228089476586286,
+        "Oceania": 0.0037758252394999173,
+        "USA": 0.9735348567208036
+      },
+      "country_entropy": 0.14809564200496791
+    },
+    "NODE_0000029": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.07356357707102384,
+        "Europe": 0.012459686171449111,
+        "Oceania": 0.006076734153745658,
+        "USA": 0.9076600731673024
+      },
+      "country_entropy": 0.36771639452294036
+    },
+    "NODE_0000030": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.0867275156877696,
+        "USA": 0.9119099965967553
+      },
+      "country_entropy": 0.3061678343597755
+    },
+    "NODE_0000031": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01447016538697257,
+        "Europe": 0.0023819344211658353,
+        "Oceania": 0.0036262545184661136,
+        "USA": 0.9793683023820042
+      },
+      "country_entropy": 0.11791394239836801
+    },
+    "NODE_0000032": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02996813016676579,
+        "Europe": 0.0042761991457090295,
+        "Oceania": 0.004720081898679749,
+        "USA": 0.9608534500509165
+      },
+      "country_entropy": 0.19377533461161875
+    },
+    "NODE_0000033": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.03711195210432817,
+        "Europe": 0.9348767677525945,
+        "USA": 0.02741870235760411
+      },
+      "country_entropy": 0.2887577630771147
+    },
+    "NODE_0000034": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012307231926575717,
+        "Europe": 0.0021724782516397826,
+        "Oceania": 0.0035817005200226453,
+        "USA": 0.9817882111448536
+      },
+      "country_entropy": 0.10707600350687682
+    },
+    "NODE_0000036": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.20758191501629447,
+        "Europe": 0.0031729758901550198,
+        "Oceania": 0.0028374029911897025,
+        "USA": 0.7861276244038514
+      },
+      "country_entropy": 0.5529158357470785
+    },
+    "NODE_0000037": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999840850932022
+      },
+      "country_entropy": 0.00019181046862688894
+    },
+    "NODE_0000038": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.0015399463166653612,
+        "Europe": 0.9950684527270565,
+        "USA": 0.0033114248943969114
+      },
+      "country_entropy": 0.03462721077125262
+    },
+    "NODE_0000039": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 0.9989766385884415
+      },
+      "country_entropy": 0.008607445470914445
+    },
+    "NODE_0000042": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012098297023140744,
+        "Europe": 0.0021512307140590563,
+        "Oceania": 0.003623538898738006,
+        "USA": 0.9819766885728484
+      },
+      "country_entropy": 0.10626255535101506
+    },
+    "NODE_0000045": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.017081651611502487,
+        "Europe": 0.002652788878821406,
+        "Oceania": 0.004584161512650701,
+        "USA": 0.9755146634071393
+      },
+      "country_entropy": 0.13567730090672186
+    },
+    "NODE_0000046": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.025738229257658837,
+        "Europe": 0.0034156311523331796,
+        "Oceania": 0.006112541155487073,
+        "USA": 0.9645459778782753
+      },
+      "country_entropy": 0.18129693614759285
+    },
+    "NODE_0000047": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.024196192776255895,
+        "Europe": 0.003340433697353599,
+        "Oceania": 0.005931889587824667,
+        "USA": 0.9663453432209105
+      },
+      "country_entropy": 0.1743042905377652
+    },
+    "NODE_0000048": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01670359958843078,
+        "Europe": 0.0026381834140528425,
+        "Oceania": 0.00455052129251551,
+        "USA": 0.9759413647655808
+      },
+      "country_entropy": 0.1338732047858597
+    },
+    "NODE_0000049": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012021499283982755,
+        "Europe": 0.00214860492232781,
+        "Oceania": 0.0036180798898991467,
+        "USA": 0.9820616652868395
+      },
+      "country_entropy": 0.1058770980100073
+    },
+    "NODE_0000050": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.020523385640713085,
+        "Europe": 0.003075256468919337,
+        "Oceania": 0.005378655361196238,
+        "USA": 0.9708422395090847
+      },
+      "country_entropy": 0.15604641996464794
+    },
+    "NODE_0000051": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012800052567630171,
+        "Europe": 0.0022163682247344995,
+        "Oceania": 0.003752853887026228,
+        "USA": 0.9810787489776798
+      },
+      "country_entropy": 0.11046386325684339
+    },
+    "NODE_0000052": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012800052567630171,
+        "Europe": 0.0022163682247344995,
+        "Oceania": 0.003752853887026228,
+        "USA": 0.9810787489776798
+      },
+      "country_entropy": 0.11046386325684339
+    },
+    "NODE_0000053": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.0271955011682652,
+        "Europe": 0.003509787199545778,
+        "Oceania": 0.006376366474337777,
+        "USA": 0.9627287183754529
+      },
+      "country_entropy": 0.1884136683474088
+    },
+    "NODE_0000054": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.021378899873320135,
+        "Europe": 0.0031113120833764388,
+        "Oceania": 0.005473321992351116,
+        "USA": 0.9698551359316074
+      },
+      "country_entropy": 0.16003412874117978
+    },
+    "NODE_0000055": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012973871567482885,
+        "Europe": 0.002222751663338651,
+        "Oceania": 0.0037682130402892,
+        "USA": 0.9808829699193112
+      },
+      "country_entropy": 0.1113433249902037
+    },
+    "NODE_0000056": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012973871567482885,
+        "Europe": 0.002222751663338651,
+        "Oceania": 0.0037682130402892,
+        "USA": 0.9808829699193112
+      },
+      "country_entropy": 0.1113433249902037
+    },
+    "NODE_0000057": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.026326265334089036,
+        "Europe": 0.0034421853316001314,
+        "Oceania": 0.006504839221220398,
+        "USA": 0.9635379902909178
+      },
+      "country_entropy": 0.18555374344609932
+    },
+    "NODE_0000058": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.018236640642625142,
+        "Europe": 0.0027651044458848256,
+        "Oceania": 0.006243104663434769,
+        "USA": 0.9725830170330796
+      },
+      "country_entropy": 0.1496412871996643
+    },
+    "NODE_0000059": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.015997016531649106,
+        "Europe": 0.0027104120986009388,
+        "Oceania": 0.011758840997854273,
+        "USA": 0.9693515026803915
+      },
+      "country_entropy": 0.16627587514579026
+    },
+    "NODE_0000061": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.025078246337486364,
+        "Europe": 0.003349762728585221,
+        "Oceania": 0.006038793291502317,
+        "USA": 0.9653467901896626
+      },
+      "country_entropy": 0.17813930280970353
+    },
+    "NODE_0000062": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.013726214090601553,
+        "Europe": 0.002262120012870915,
+        "Oceania": 0.0038600547546343506,
+        "USA": 0.9799983150230458
+      },
+      "country_entropy": 0.11533537477695935
+    },
+    "NODE_0000063": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02626670925696639,
+        "Europe": 0.003466409593860718,
+        "Oceania": 0.006214259651004461,
+        "USA": 0.9638639237932544
+      },
+      "country_entropy": 0.18401639968239544
+    },
+    "NODE_0000064": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.014716382510958163,
+        "Europe": 0.0029257779011784436,
+        "Oceania": 0.041648681354218786,
+        "USA": 0.9404659965784729
+      },
+      "country_entropy": 0.2714382503805254
+    },
+    "NODE_0000065": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.021114088335839148,
+        "Europe": 0.003101777551617297,
+        "Oceania": 0.005438759411136663,
+        "USA": 0.9701643061198273
+      },
+      "country_entropy": 0.15878598512629705
+    },
+    "NODE_0000066": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012920079967008101,
+        "Europe": 0.002220998503803457,
+        "Oceania": 0.0037626105952882267,
+        "USA": 0.980944184908607
+      },
+      "country_entropy": 0.11106804656996573
+    },
+    "NODE_0000067": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012920079967008101,
+        "Europe": 0.002220998503803457,
+        "Oceania": 0.0037626105952882267,
+        "USA": 0.980944184908607
+      },
+      "country_entropy": 0.11106804656996573
+    },
+    "NODE_0000068": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.023983866499460736,
+        "Europe": 0.0033058612112761452,
+        "Oceania": 0.005865205454762811,
+        "USA": 0.9666597183416255
+      },
+      "country_entropy": 0.17297701358704404
+    },
+    "NODE_0000069": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.013503865420270942,
+        "Europe": 0.0022542103349503908,
+        "Oceania": 0.0038319167722868502,
+        "USA": 0.980257001554537
+      },
+      "country_entropy": 0.11417778965213514
+    },
+    "NODE_0000070": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.022594931228648377,
+        "Europe": 0.0032355349890495293,
+        "Oceania": 0.00570860077795713,
+        "USA": 0.9682769951011401
+      },
+      "country_entropy": 0.16658574553593114
+    },
+    "NODE_0000071": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.013221573258408172,
+        "Europe": 0.002242188087462658,
+        "Oceania": 0.003806488177959383,
+        "USA": 0.9805771039610041
+      },
+      "country_entropy": 0.11274762232418205
+    },
+    "NODE_0000072": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.0200664719459341,
+        "Europe": 0.0030533702080151304,
+        "Oceania": 0.005331095885552279,
+        "USA": 0.9713690877009231
+      },
+      "country_entropy": 0.1539011074146908
+    },
+    "NODE_0000073": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.010827759914101459,
+        "Europe": 0.0020574299787870388,
+        "Oceania": 0.003436882771771407,
+        "USA": 0.9835303090129635
+      },
+      "country_entropy": 0.09895426504954835
+    },
+    "NODE_0000074": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.010824696769279182,
+        "Europe": 0.0020574150745456014,
+        "Oceania": 0.0034368846176115663,
+        "USA": 0.9835333868277835
+      },
+      "country_entropy": 0.09894035568923124
+    },
+    "NODE_0000075": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012707198695346032,
+        "Europe": 0.0022125927375769598,
+        "Oceania": 0.0037451314077990485,
+        "USA": 0.9811832186836417
+      },
+      "country_entropy": 0.10999348422029455
+    },
+    "NODE_0000076": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012707198695346032,
+        "Europe": 0.0022125927375769598,
+        "Oceania": 0.0037451314077990485,
+        "USA": 0.9811832186836417
+      },
+      "country_entropy": 0.10999348422029455
+    },
+    "NODE_0000077": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011584221355023083,
+        "Europe": 0.0032954874293383107,
+        "Oceania": 0.19671138390494522,
+        "USA": 0.7879485883728099
+      },
+      "country_entropy": 0.5819613137841922
+    },
+    "NODE_0000079": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.5326661631536229,
+        "Europe": 0.007678986290184636,
+        "Oceania": 0.00410991609631548,
+        "USA": 0.45537544579179345
+      },
+      "country_entropy": 0.7552791260731847
+    },
+    "NODE_0000080": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.008612754342088757,
+        "Europe": 0.001748637456960951,
+        "Oceania": 0.002876262386074077,
+        "USA": 0.9866269794505742
+      },
+      "country_entropy": 0.0834528900162315
+    },
+    "NODE_0000081": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.5667552462829769,
+        "Europe": 0.003543477374862208,
+        "Oceania": 0.003784787998224373,
+        "USA": 0.4257014818228832
+      },
+      "country_entropy": 0.7284417595868528
+    },
+    "NODE_0000082": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9721728603089813,
+        "USA": 0.027025782759390327
+      },
+      "country_entropy": 0.13136020185939865
+    },
+    "NODE_0000083": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9812703104286811,
+        "USA": 0.018335027724926112
+      },
+      "country_entropy": 0.09530796936081741
+    },
+    "NODE_0000084": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9940942619727294,
+        "USA": 0.005748764727258586
+      },
+      "country_entropy": 0.0370555012763766
+    },
+    "NODE_0000085": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01464880488984144,
+        "Europe": 0.0018392669606137543,
+        "Oceania": 0.005040750682355972,
+        "USA": 0.9783271332424207
+      },
+      "country_entropy": 0.12291850009445988
+    },
+    "NODE_0000086": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9732533127503944,
+        "Europe": 0.002263157332198889,
+        "USA": 0.02365629545919636
+      },
+      "country_entropy": 0.13463461276140806
+    },
+    "NODE_0000087": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.540033188146474,
+        "Europe": 0.0038524847327228813,
+        "Oceania": 0.01132922133028997,
+        "USA": 0.4445891098156834
+      },
+      "country_entropy": 0.767097185378292
+    },
+    "NODE_0000088": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.579249848298224,
+        "Europe": 0.0027407564857830327,
+        "Oceania": 0.0033034953881240802,
+        "USA": 0.4144893179366773
+      },
+      "country_entropy": 0.7183456655499248
+    },
+    "NODE_0000089": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.41952660286569593,
+        "Europe": 0.0039036770586979045,
+        "Oceania": 0.052174056585325645,
+        "USA": 0.5240450364514634
+      },
+      "country_entropy": 0.881799184453264
+    },
+    "NODE_0000090": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.4972595329881253,
+        "Europe": 0.003085457370393444,
+        "Oceania": 0.009847947195896982,
+        "USA": 0.48953056980311593
+      },
+      "country_entropy": 0.762879287359022
+    },
+    "NODE_0000091": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.12274904595107063,
+        "USA": 0.876962028664073
+      },
+      "country_entropy": 0.3751787487885407
+    },
+    "NODE_0000092": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.10264740230026116,
+        "Europe": 0.003687280774107711,
+        "Oceania": 0.3193359119441702,
+        "USA": 0.5739311588209087
+      },
+      "country_entropy": 0.9409217836466528
+    },
+    "NODE_0000093": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02711140466290652,
+        "Europe": 0.002963175134915641,
+        "Oceania": 0.40874837918256,
+        "USA": 0.5607373741124334
+      },
+      "country_entropy": 0.8088368385516745
+    },
+    "NODE_0000094": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.20649828011497248,
+        "USA": 0.7919402494882336
+      },
+      "country_entropy": 0.5217520704004042
+    },
+    "NODE_0000095": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02711140466290652,
+        "Europe": 0.002963175134915641,
+        "Oceania": 0.40874837918256,
+        "USA": 0.5607373741124334
+      },
+      "country_entropy": 0.8088368385516745
+    },
+    "NODE_0000099": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.22598169012464556,
+        "Europe": 0.0945375515792328,
+        "Oceania": 0.009516152721342742,
+        "USA": 0.6694958788310428
+      },
+      "country_entropy": 0.8759266047626918
+    },
+    "NODE_0000100": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.23385661443395764,
+        "Europe": 0.6821001815009282,
+        "USA": 0.0837423242093666
+      },
+      "country_entropy": 0.8110548290212769
+    },
+    "NODE_0000101": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.3742176808075984,
+        "Europe": 0.020626633548994605,
+        "Oceania": 0.0038247084588856574,
+        "USA": 0.6009842832384675
+      },
+      "country_entropy": 0.7781851563206426
+    },
+    "NODE_0000102": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.398424972365381,
+        "Europe": 0.030818972953274522,
+        "USA": 0.5707324108047576
+      },
+      "country_entropy": 0.7942224738351193
+    },
+    "NODE_0000103": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.07246046641831472,
+        "Europe": 0.5278025706838431,
+        "Oceania": 0.034106230459948136,
+        "USA": 0.36514515743802317
+      },
+      "country_entropy": 1.0146008520274612
+    },
+    "NODE_0000104": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.02463098860711022,
+        "Europe": 0.5869384935432425,
+        "Oceania": 0.13665382695095726,
+        "USA": 0.2507637833059963
+      },
+      "country_entropy": 1.030504730062963
+    },
+    "NODE_0000105": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.053347769048162616,
+        "Europe": 0.657487365656104,
+        "Oceania": 0.008090943866978671,
+        "USA": 0.28082713727691894
+      },
+      "country_entropy": 0.82990994464074
+    },
+    "NODE_0000106": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.022867424124062383,
+        "Europe": 0.6692496897314856,
+        "Oceania": 0.0037173404741523445,
+        "USA": 0.303809716531532
+      },
+      "country_entropy": 0.7409741372936665
+    },
+    "NODE_0000107": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.07806537704200148,
+        "Europe": 0.6799073458398253,
+        "Oceania": 0.003619393162440685,
+        "USA": 0.2380278799188579
+      },
+      "country_entropy": 0.8266497388963752
+    },
+    "NODE_0000108": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.32916452007068236,
+        "Europe": 0.1319776842054512,
+        "Oceania": 0.0036442643346016926,
+        "USA": 0.5345072214702229
+      },
+      "country_entropy": 0.9939333841914786
+    },
+    "NODE_0000109": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.003446257239248575,
+        "Europe": 0.9800088227650757,
+        "USA": 0.0162056230835756
+      },
+      "country_entropy": 0.10907621651071348
+    },
+    "NODE_0000111": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9509477903300253,
+        "USA": 0.048051655616287305
+      },
+      "country_entropy": 0.2014719139791289
+    },
+    "NODE_0000114": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.025824147460528708,
+        "Europe": 0.0031448809557839455,
+        "Oceania": 0.005324364853943056,
+        "USA": 0.9655235470219234
+      },
+      "country_entropy": 0.1759845991580542
+    },
+    "NODE_0000115": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.015053360110414452,
+        "Europe": 0.0023028436947385043,
+        "Oceania": 0.0038924545588944256,
+        "USA": 0.978596947435914
+      },
+      "country_entropy": 0.12137332170679171
+    },
+    "NODE_0000117": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.029750584752751927,
+        "Oceania": 0.013378754435305177,
+        "USA": 0.9566241013195947
+      },
+      "country_entropy": 0.20677842291039533
+    },
+    "NODE_0000118": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.026652762005926083,
+        "Europe": 0.0031829311419039105,
+        "Oceania": 0.005420989226303212,
+        "USA": 0.9645587453657122
+      },
+      "country_entropy": 0.17970494148043492
+    },
+    "NODE_0000119": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.014043941751233302,
+        "Europe": 0.002240253973978901,
+        "Oceania": 0.003759687550808164,
+        "USA": 0.979802953023734
+      },
+      "country_entropy": 0.11599675418495853
+    },
+    "NODE_0000120": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.03222542480143531,
+        "Europe": 0.0028527510817030473,
+        "Oceania": 0.004583096506176391,
+        "USA": 0.9601612971261803
+      },
+      "country_entropy": 0.19276974890934492
+    },
+    "NODE_0000121": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.17851818166297173,
+        "Europe": 0.00298997424156734,
+        "USA": 0.8182085733242854
+      },
+      "country_entropy": 0.4914647535849226
+    },
+    "NODE_0000122": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.20667335491505814,
+        "USA": 0.7919196118933747
+      },
+      "country_entropy": 0.5208991776745437
+    },
+    "NODE_0000123": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.07125644384494109,
+        "Europe": 0.0031402795106620796,
+        "Oceania": 0.004362045304659409,
+        "USA": 0.9210388947946966
+      },
+      "country_entropy": 0.30763820452583845
+    },
+    "NODE_0000124": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.2292837536300256,
+        "Europe": 0.003964427584376107,
+        "Oceania": 0.004218989273105147,
+        "USA": 0.7622606981579206
+      },
+      "country_entropy": 0.5920303334666079
+    },
+    "NODE_0000125": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.055141873609341446,
+        "Europe": 0.0026366994903803394,
+        "Oceania": 0.0035591337572768032,
+        "USA": 0.9384746406313869
+      },
+      "country_entropy": 0.2568420541707197
+    },
+    "NODE_0000126": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.04483453114303117,
+        "Europe": 0.0024220198641493524,
+        "Oceania": 0.002920162016325972,
+        "USA": 0.9496602709870575
+      },
+      "country_entropy": 0.22140949606024365
+    },
+    "NODE_0000127": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.7164626191893655,
+        "Europe": 0.0022050529545585952,
+        "Oceania": 0.0016464345746749986,
+        "USA": 0.2795173870166299
+      },
+      "country_entropy": 0.6208092052721781
+    },
+    "NODE_0000128": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01382635132968605,
+        "Europe": 0.0024234110835844665,
+        "Oceania": 0.004109676570752655,
+        "USA": 0.979479508463255
+      },
+      "country_entropy": 0.11818222703734486
+    },
+    "NODE_0000129": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.6991462981258911,
+        "Europe": 0.002026356640115841,
+        "Oceania": 0.0014027690751627845,
+        "USA": 0.2972477224008426
+      },
+      "country_entropy": 0.6342711621559537
+    },
+    "NODE_0000130": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011436094000611206,
+        "Europe": 0.0021138599920125364,
+        "Oceania": 0.0035464164013672013,
+        "USA": 0.9827544253059516
+      },
+      "country_entropy": 0.10266044669851479
+    },
+    "NODE_0000136": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.052084861869278146,
+        "Europe": 0.001609492922747053,
+        "USA": 0.9454564761505256
+      },
+      "country_entropy": 0.22337035625786206
+    },
+    "NODE_0000138": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.0037671587440834473,
+        "USA": 0.9959777272069239
+      },
+      "country_entropy": 0.02731399018011233
+    },
+    "NODE_0000141": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012335340969832857,
+        "Europe": 0.0021318143180180113,
+        "Oceania": 0.003578096756852849,
+        "USA": 0.981804925840464
+      },
+      "country_entropy": 0.10692457002788953
+    },
+    "NODE_0000142": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.010859472893782005,
+        "Europe": 0.0020581384218240706,
+        "Oceania": 0.003438172649111464,
+        "USA": 0.983496563490636
+      },
+      "country_entropy": 0.09910920867868023
+    },
+    "NODE_0000144": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.027242705224568793,
+        "Europe": 0.0025641347778463603,
+        "Oceania": 0.0038901939450163795,
+        "USA": 0.9661419554902809
+      },
+      "country_entropy": 0.16982560418658463
+    },
+    "NODE_0000145": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.015483565154080484,
+        "Europe": 0.0026082513804835603,
+        "Oceania": 0.006053904006030168,
+        "USA": 0.9756855703339034
+      },
+      "country_entropy": 0.13655522056932592
+    },
+    "NODE_0000146": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9665332222699575,
+        "USA": 0.032798372094737
+      },
+      "country_entropy": 0.150451640287656
+    },
+    "NODE_0000147": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01615688611658088,
+        "Europe": 0.0027698335146605774,
+        "Oceania": 0.013051254979091612,
+        "USA": 0.9678364098660399
+      },
+      "country_entropy": 0.17294362676809613
+    },
+    "NODE_0000148": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.018104887695078814,
+        "Europe": 0.0034017972279671827,
+        "Oceania": 0.04916104671325526,
+        "USA": 0.929069849506813
+      },
+      "country_entropy": 0.31075167239667695
+    },
+    "NODE_0000149": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012327418061754433,
+        "Europe": 0.0023061303963388654,
+        "Oceania": 0.010839914856599065,
+        "USA": 0.9743569800274391
+      },
+      "country_entropy": 0.1441277919956202
+    },
+    "NODE_0000150": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012210555376410732,
+        "Europe": 0.003373284686642833,
+        "Oceania": 0.20246807068599906,
+        "USA": 0.7814855548167055
+      },
+      "country_entropy": 0.5929095570695924
+    },
+    "NODE_0000152": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.015154175311327019,
+        "Europe": 0.0025300118766549387,
+        "Oceania": 0.004329921811939925,
+        "USA": 0.9778222484293227
+      },
+      "country_entropy": 0.12563770634251456
+    },
+    "NODE_0000153": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01672946980253512,
+        "Europe": 0.002667431203000931,
+        "Oceania": 0.004605706672947144,
+        "USA": 0.9758303879864133
+      },
+      "country_entropy": 0.13445332503570673
+    },
+    "NODE_0000154": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02087741059059642,
+        "Europe": 0.0031274177085933723,
+        "Oceania": 0.005482740463197866,
+        "USA": 0.9703308781388561
+      },
+      "country_entropy": 0.15825813931050683
+    },
+    "NODE_0000156": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.004415548725113474,
+        "USA": 0.9944202316787409
+      },
+      "country_entropy": 0.038162318108238905
+    },
+    "NODE_0000157": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.018139597472204633,
+        "Europe": 0.0027735142986051557,
+        "Oceania": 0.004824515157595151,
+        "USA": 0.9740929317617048
+      },
+      "country_entropy": 0.141941344336433
+    },
+    "NODE_0000158": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999996454679156
+      },
+      "country_entropy": 5.620543530328606e-06
+    },
+    "NODE_0000159": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.020794418567591556,
+        "Europe": 0.00312384242796867,
+        "Oceania": 0.005475169162427484,
+        "USA": 0.970425086782057
+      },
+      "country_entropy": 0.15787900368733362
+    },
+    "NODE_0000160": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.00860960034064102,
+        "Europe": 0.0017486152805765544,
+        "Oceania": 0.002876262006903381,
+        "USA": 0.9866301583013385
+      },
+      "country_entropy": 0.08343777112048215
+    },
+    "NODE_0000161": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.00860960034064102,
+        "Europe": 0.0017486152805765544,
+        "Oceania": 0.002876262006903381,
+        "USA": 0.9866301583013385
+      },
+      "country_entropy": 0.08343777112048215
+    },
+    "NODE_0000162": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.019552765206551408,
+        "Europe": 0.0030299279747547196,
+        "Oceania": 0.0052814317130840316,
+        "USA": 0.9719564398985469
+      },
+      "country_entropy": 0.15150233415267494
+    },
+    "NODE_0000163": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012602814069545535,
+        "Europe": 0.002208515621305998,
+        "Oceania": 0.003737067347027937,
+        "USA": 0.9812998747665655
+      },
+      "country_entropy": 0.1094683219884012
+    },
+    "NODE_0000164": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012602814069545535,
+        "Europe": 0.002208515621305998,
+        "Oceania": 0.003737067347027937,
+        "USA": 0.9812998747665655
+      },
+      "country_entropy": 0.1094683219884012
+    },
+    "NODE_0000165": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.023658207152319283,
+        "Europe": 0.03555011751119605,
+        "Oceania": 0.005591181264053302,
+        "USA": 0.9349205723861641
+      },
+      "country_entropy": 0.30158400703757193
+    },
+    "NODE_0000166": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.022956340895144964,
+        "Europe": 0.009411214100582679,
+        "Oceania": 0.005728506388709078,
+        "USA": 0.961699503926402
+      },
+      "country_entropy": 0.19954588863325282
+    },
+    "NODE_0000167": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.016462419334239413,
+        "Europe": 0.0036119093876238496,
+        "Oceania": 0.004525247720740593,
+        "USA": 0.9752306550290913
+      },
+      "country_entropy": 0.13838344936990782
+    },
+    "NODE_0000168": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.014635794178206442,
+        "Europe": 0.0025084266470979423,
+        "Oceania": 0.004575197131728894,
+        "USA": 0.978116862053258
+      },
+      "country_entropy": 0.12466309087463855
+    },
+    "NODE_0000169": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.017244209227468766,
+        "Europe": 0.003700277437420853,
+        "Oceania": 0.00466013707106703,
+        "USA": 0.9742239878944161
+      },
+      "country_entropy": 0.14278711565307706
+    },
+    "NODE_0000171": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.013597833511286619,
+        "Europe": 0.002418928353112138,
+        "Oceania": 0.004103727255757466,
+        "USA": 0.9797186534202507
+      },
+      "country_entropy": 0.11714537463733285
+    },
+    "NODE_0000172": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011389712971324914,
+        "Europe": 0.0021128987530908035,
+        "Oceania": 0.003545453017139671,
+        "USA": 0.982802778984726
+      },
+      "country_entropy": 0.10244200583097549
+    },
+    "NODE_0000173": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011389712971324914,
+        "Europe": 0.0021128987530908035,
+        "Oceania": 0.003545453017139671,
+        "USA": 0.982802778984726
+      },
+      "country_entropy": 0.10244200583097549
+    },
+    "NODE_0000174": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011681871347178173,
+        "Europe": 0.002152417437179576,
+        "Oceania": 0.0035800268584852035,
+        "USA": 0.9824359594266522
+      },
+      "country_entropy": 0.10418265857897557
+    },
+    "NODE_0000175": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.0336318727986654,
+        "Europe": 0.19590592117766828,
+        "Oceania": 0.007259689106734605,
+        "USA": 0.762596225624934
+      },
+      "country_entropy": 0.680772996798138
+    },
+    "NODE_0000176": {
+      "country": "Europe",
+      "country_confidence": {
+        "Asia": 0.0032173491587302425,
+        "Europe": 0.9509050486378599,
+        "USA": 0.04506754680729265
+      },
+      "country_entropy": 0.2122954502943667
+    },
+    "NODE_0000177": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.03521122464318666,
+        "Europe": 0.044203304755957226,
+        "Oceania": 0.007383258027597173,
+        "USA": 0.9128430270333455
+      },
+      "country_entropy": 0.3782501471536087
+    },
+    "NODE_0000178": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02700220808906805,
+        "Europe": 0.011139783206702225,
+        "Oceania": 0.006205486719801962,
+        "USA": 0.9554359420220425
+      },
+      "country_entropy": 0.22468194316446988
+    },
+    "NODE_0000179": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.014179524310826247,
+        "Europe": 0.0033591678225917956,
+        "Oceania": 0.0039014507673862256,
+        "USA": 0.9784013581752364
+      },
+      "country_entropy": 0.1239687619819519
+    },
+    "NODE_0000180": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02274635758329819,
+        "Europe": 0.004641644894412607,
+        "Oceania": 0.005726289765376626,
+        "USA": 0.9666970677593457
+      },
+      "country_entropy": 0.17503490367450078
+    },
+    "NODE_0000181": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01304016745932111,
+        "Europe": 0.0022461280195692035,
+        "Oceania": 0.003787612067901188,
+        "USA": 0.9807714963700803
+      },
+      "country_entropy": 0.11190202009673753
+    },
+    "NODE_0000182": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.015027480935040432,
+        "Europe": 0.0026841528109645576,
+        "Oceania": 0.004314558636220448,
+        "USA": 0.9778096771080189
+      },
+      "country_entropy": 0.12594412666225538
+    },
+    "NODE_0000183": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.013263669816056294,
+        "Europe": 0.0024399119262198355,
+        "Oceania": 0.0038119565785797002,
+        "USA": 0.9803309558499361
+      },
+      "country_entropy": 0.11416109177171173
+    },
+    "NODE_0000184": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.017452735504141892,
+        "Europe": 0.00294266596361468,
+        "Oceania": 0.005005831278722239,
+        "USA": 0.9744292663111004
+      },
+      "country_entropy": 0.14113807476531998
+    },
+    "NODE_0000185": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01620865033171046,
+        "Europe": 0.002685455698018793,
+        "Oceania": 0.006160615961663691,
+        "USA": 0.9747754772405419
+      },
+      "country_entropy": 0.14055030478903158
+    },
+    "NODE_0000186": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.016347060548272608,
+        "Europe": 0.0027844433821491714,
+        "Oceania": 0.013094884902963778,
+        "USA": 0.9675877481971598
+      },
+      "country_entropy": 0.17399644334808237
+    },
+    "NODE_0000187": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.018158460232205693,
+        "Europe": 0.003405021069718635,
+        "Oceania": 0.04919091292800779,
+        "USA": 0.9289831153113847
+      },
+      "country_entropy": 0.31106905411129715
+    },
+    "NODE_0000188": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012338318460141981,
+        "Europe": 0.002306691527611301,
+        "Oceania": 0.010844752731622847,
+        "USA": 0.9743406586121577
+      },
+      "country_entropy": 0.1442007832881829
+    },
+    "NODE_0000189": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012221146703656871,
+        "Europe": 0.003373925060644188,
+        "Oceania": 0.20249068757858496,
+        "USA": 0.7814516777596003
+      },
+      "country_entropy": 0.5929878674695447
+    },
+    "NODE_0000190": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.03343343058032948,
+        "Europe": 0.013025506973045489,
+        "Oceania": 0.007462105572136861,
+        "USA": 0.945360677365161
+      },
+      "country_entropy": 0.26527428393338137
+    },
+    "NODE_0000191": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.03257313472801017,
+        "Europe": 0.007671170077868611,
+        "Oceania": 0.008887342887305047,
+        "USA": 0.9448478902916214
+      },
+      "country_entropy": 0.2759574526306358
+    },
+    "NODE_0000192": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.010824002952101388,
+        "Europe": 0.00205740681026623,
+        "Oceania": 0.003436885012454402,
+        "USA": 0.9835340891639416
+      },
+      "country_entropy": 0.09893717201251918
+    },
+    "NODE_0000193": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.010823934691262764,
+        "Europe": 0.0020574064800296557,
+        "Oceania": 0.0034368850711231917,
+        "USA": 0.9835341577323427
+      },
+      "country_entropy": 0.09893686214424445
+    },
+    "NODE_0000194": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.004216986671284679,
+        "USA": 0.9946295599794719
+      },
+      "country_entropy": 0.03700211843390312
+    },
+    "NODE_0000195": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012855448401694515,
+        "Europe": 0.002223684690083102,
+        "Oceania": 0.003768559078224014,
+        "USA": 0.9810001823589327
+      },
+      "country_entropy": 0.11083747287121934
+    },
+    "NODE_0000196": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.026454345455198956,
+        "Jamaica": 0.07193758347949222,
+        "Oceania": 0.011968841315196899,
+        "USA": 0.8797155426126574
+      },
+      "country_entropy": 0.49934846594251553
+    },
+    "NODE_0000197": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02826317957787828,
+        "Europe": 0.004361228322241568,
+        "Oceania": 0.006893853603840808,
+        "USA": 0.9598362862234774
+      },
+      "country_entropy": 0.2031127680052378
+    },
+    "NODE_0000198": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01589980443331263,
+        "Europe": 0.0025984824140963497,
+        "Oceania": 0.004466685399276884,
+        "USA": 0.9768696935492117
+      },
+      "country_entropy": 0.12988815868267062
+    },
+    "NODE_0000199": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.021697801016397306,
+        "Europe": 0.003272426629214272,
+        "Oceania": 0.0055900838352734355,
+        "USA": 0.9692234032461704
+      },
+      "country_entropy": 0.16308193615071342
+    },
+    "NODE_0000200": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012728761578083746,
+        "Europe": 0.002197985505825986,
+        "Oceania": 0.0037257124104571556,
+        "USA": 0.9811963704245157
+      },
+      "country_entropy": 0.10988341779052983
+    },
+    "NODE_0000202": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.022694484654429064,
+        "Europe": 0.003353463328892593,
+        "Oceania": 0.005753077823133078,
+        "USA": 0.9679807588794139
+      },
+      "country_entropy": 0.1681608695265826
+    },
+    "NODE_0000203": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01324300890279902,
+        "Europe": 0.0022591072986601728,
+        "Oceania": 0.003814113313133463,
+        "USA": 0.9805288323507362
+      },
+      "country_entropy": 0.1130060272435659
+    },
+    "NODE_0000204": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.016341286707774526,
+        "Europe": 0.002638028322961015,
+        "Oceania": 0.004517633741141394,
+        "USA": 0.976334734825542
+      },
+      "country_entropy": 0.13223560088815678
+    },
+    "NODE_0000205": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011948029755544742,
+        "Europe": 0.0021480433993008212,
+        "Oceania": 0.0036127835554128794,
+        "USA": 0.9821409242727295
+      },
+      "country_entropy": 0.10552085699619865
+    },
+    "NODE_0000206": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02538961178128044,
+        "Europe": 0.005052055437489801,
+        "Oceania": 0.006119809881531569,
+        "USA": 0.9632089991564681
+      },
+      "country_entropy": 0.1893309693953083
+    },
+    "NODE_0000207": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.013803470507032858,
+        "Europe": 0.0025019225579652215,
+        "Oceania": 0.0038765500089844415,
+        "USA": 0.979661261401545
+      },
+      "country_entropy": 0.1172320390194028
+    },
+    "NODE_0000208": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.02020477999630384,
+        "Europe": 0.0031584648279737618,
+        "Oceania": 0.005539922922225746,
+        "USA": 0.9709204460988629
+      },
+      "country_entropy": 0.15609080712465326
+    },
+    "NODE_0000209": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.024418702921482103,
+        "Europe": 0.0034305653746618285,
+        "Oceania": 0.008528808957695169,
+        "USA": 0.963430626603849
+      },
+      "country_entropy": 0.18840313395784394
+    },
+    "NODE_0000210": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.018533849253810537,
+        "Europe": 0.0028024238875289233,
+        "Oceania": 0.0053594079320078555,
+        "USA": 0.9731333645842832
+      },
+      "country_entropy": 0.14650103288299088
+    },
+    "NODE_0000211": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.018905567668916236,
+        "Europe": 0.002967490224909314,
+        "Oceania": 0.005256787857616904,
+        "USA": 0.9726919472068518
+      },
+      "country_entropy": 0.14846224866500682
+    },
+    "NODE_0000212": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012471045811491695,
+        "Europe": 0.0021987959378753914,
+        "Oceania": 0.0037329816959175,
+        "USA": 0.9814456482513848
+      },
+      "country_entropy": 0.10880983607318027
+    },
+    "NODE_0000213": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.00860960034064102,
+        "Europe": 0.0017486152805765544,
+        "Oceania": 0.002876262006903381,
+        "USA": 0.9866301583013385
+      },
+      "country_entropy": 0.08343777112048215
+    },
+    "NODE_0000214": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01304016745932111,
+        "Europe": 0.0022461280195692035,
+        "Oceania": 0.003787612067901188,
+        "USA": 0.9807714963700803
+      },
+      "country_entropy": 0.11190202009673753
+    },
+    "NODE_0000215": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012471045811491695,
+        "Europe": 0.0021987959378753914,
+        "Oceania": 0.0037329816959175,
+        "USA": 0.9814456482513848
+      },
+      "country_entropy": 0.10880983607318027
+    },
+    "NODE_0000216": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.024970180785704652,
+        "Europe": 0.003583843531698767,
+        "Oceania": 0.017399036407068188,
+        "USA": 0.9538380796168492
+      },
+      "country_entropy": 0.22979275067752647
+    },
+    "NODE_0000217": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.020568037884469672,
+        "Europe": 0.003575821799993133,
+        "Oceania": 0.05217617802641556,
+        "USA": 0.9234130184073561
+      },
+      "country_entropy": 0.3300571028303947
+    },
+    "NODE_0000218": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012829344414420497,
+        "Europe": 0.002337316908784117,
+        "Oceania": 0.011328138785656713,
+        "USA": 0.9733340567783487
+      },
+      "country_entropy": 0.14869925102922973
+    },
+    "NODE_0000219": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012684500297189354,
+        "Europe": 0.0034036344286663923,
+        "Oceania": 0.20476744503146374,
+        "USA": 0.7786808819970591
+      },
+      "country_entropy": 0.5981325513365912
+    },
+    "NODE_0000220": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.020742002593068652,
+        "Europe": 0.003135167247699419,
+        "Oceania": 0.007848558829390154,
+        "USA": 0.9680883894869814
+      },
+      "country_entropy": 0.16961575861680178
+    },
+    "NODE_0000221": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012845733321888054,
+        "Europe": 0.0022277666668541383,
+        "Oceania": 0.0041527250173608475,
+        "USA": 0.9806206913817771
+      },
+      "country_entropy": 0.11294692626127374
+    },
+    "NODE_0000222": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.012845733321888054,
+        "Europe": 0.0022277666668541383,
+        "Oceania": 0.0041527250173608475,
+        "USA": 0.9806206913817771
+      },
+      "country_entropy": 0.11294692626127374
+    },
+    "NODE_0000223": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011858140590339588,
+        "Europe": 0.0021417937493988697,
+        "Oceania": 0.0036044638530555073,
+        "USA": 0.9822456668588625
+      },
+      "country_entropy": 0.10503658908131164
+    },
+    "NODE_0000227": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.00860960034064102,
+        "Europe": 0.0017486152805765544,
+        "Oceania": 0.002876262006903381,
+        "USA": 0.9866301583013385
+      },
+      "country_entropy": 0.08343777112048215
+    },
+    "NODE_0000239": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011980468202573764,
+        "Europe": 0.002284997879707477,
+        "Oceania": 0.0036158091138436834,
+        "USA": 0.9819680295562788
+      },
+      "country_entropy": 0.10651992192225422
+    },
+    "NODE_0000241": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9992180933942062
+      },
+      "country_entropy": 0.006612132325883948
+    },
+    "NODE_0000244": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.01099909707692787,
+        "Europe": 0.002060784084010279,
+        "Oceania": 0.003444840042336783,
+        "USA": 0.9833475358451249
+      },
+      "country_entropy": 0.09979235721244967
+    },
+    "NODE_0000247": {
+      "country": "USA",
+      "country_confidence": {
+        "Asia": 0.011775827132690346,
+        "Europe": 0.002130703547005924,
+        "Oceania": 0.0036298858160287175,
+        "USA": 0.9823138165131272
+      },
+      "country_entropy": 0.10474561424538348
+    },
+    "NODE_0000254": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.9999983040265068
+      },
+      "country_entropy": 2.480137368881605e-05
+    },
+    "Spain/Valencia002/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Spain/Valencia003/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Spain/Valencia22/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Spain/Valencia8/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "SriLanka/COV38/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Taiwan/CGMH-CGU-07/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Thailand/SI200615-NT/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Thailand/SI204487-NT/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Thailand/SI204512-NT/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Thailand/SI204514-NT/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/AK153/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/AK178/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/AZ-ASU2923/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CDPH-UC11/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CDPH-UC28/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CDPH-UC8/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1022/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1025/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1033/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1045/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1046/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/CA-CZB-1052/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1071/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1085/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1092/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/CA-CZB-1097/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/CA-CZB-1111/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1114/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1136/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1197/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1206/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1211/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1219/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1223/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB-1231/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB0137/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB0147/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB040/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB0750/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB076/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-CZB091/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CA-SCCPHD-UC13/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-4244/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-4343/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-4347/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-5043/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW-5773/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CT-UW423/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/CZB-RR057-005/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/FL_5125/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/FL_9656/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/GA_2742/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/HI_7881/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/ID-UW-4254/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/ID-UW-4547/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/ID-UW-4552/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/ID-UW-6472/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/IN_2001/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/LA-BIE-072/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/LA-EVTL01/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/LA_0842/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MA_8933/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20020/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20062/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20072/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20085/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20090/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20095/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20097/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20105/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20110/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20123/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20126/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20148/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20149/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20169/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20170/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20177/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20186/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20224/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20228/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20239/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20242/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20252/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20259/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20281/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20284/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20302/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20314/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20337/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20356/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20357/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/MI-MDHHS-SC20360/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20368/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/MI-MDHHS-SC20389/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NE_6605/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-CDC-SURV0144NYC/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-CDC-SURV0319NYC/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-CDC-SURV0475NYC/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV08120/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV08124/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/NY-PV08136/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV08138/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV08414/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV08452/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV08455/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/NY-PV09029/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09044/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09063/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09099/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/NY-PV09116/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09121/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09122/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09143/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09144/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/NY-PV09145/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09152/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09153/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09161/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09176/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09179/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/NY-PV09307/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/OH-MDHHS-SC20370/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/PA_2735/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/PA_4395/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/SC_3569/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/UNC_200181/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/USA-WA_0447/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/USA-WA_0480/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/UT-00009/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/UT-00291/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/UT-00297/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/UT-00348/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0007/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0009/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0018/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0038/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0053/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0067/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0077/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0110/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0115/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0120/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0185/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0188/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0197/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0199/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/VA-DCLS-0205/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-NH22/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-NH5/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-1315/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-1319/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW-1322/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-1327/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW-1329/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-1338/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW-1567/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-1593/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-2082/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW-2141/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-2164/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-2212/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW-2234/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-3814/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-3819/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-3855/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-3889/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW-4026/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-4067/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-4291/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW-4549/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-4897/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-5025/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-5166/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-5169/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-5756/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-604/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-6162/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW-6491/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW120/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW155/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW198/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW210/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW223/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW227/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WA-UW249/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW255/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW259/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW262/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW265/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW274/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW282/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW286/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW288/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW315/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW337/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW338/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW340/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW46/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW50/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA-UW90/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA1/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA4-UW2/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WA_5030/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WI-UW-261/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WI-UW-266/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WI-UW-268/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "USA/WI-UW-351/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "USA/WI-UW-360/2020": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Uruguay/Mdeo-1/2020": {
+      "country": "South America",
+      "country_confidence": {
+        "South America": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Vietnam/nCoV-19-02S/2020": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Wuhan/Hu-1/2019": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Wuhan/IPBCAMS-WH-03/2019": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Wuhan/WH01/2019": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "mink/Netherlands/NB01_01KS/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "mink/Netherlands/NB02_06KS/2020": {
+      "country": "Europe",
+      "country_confidence": {
+        "Europe": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    }
+  }
+}
