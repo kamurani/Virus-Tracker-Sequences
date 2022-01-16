@@ -1,0 +1,96 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Dec 21 2021 built Dec 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    GYs-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -ninit 2 -n 2 -me 0.05 -nt 2 -s results/oceania_australia_victoria/masked_masked-delim.fasta -m GTR -ninit 10 -n 4
+Seed:    704748 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Dec 25 13:37:56 2021
+Kernel:  AVX+FMA - 2 threads (4 CPU cores detected)
+
+Reading alignment file results/oceania_australia_victoria/masked_masked-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00295591 secs using 92.97% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0193958 secs using 155.8% CPU
+WARNING: 157 sites contain only gaps or ambiguous characters.
+Alignment has 5 sequences with 29903 columns, 33 distinct patterns
+1 parsimony-informative, 15 singleton sites, 29887 constant sites
+                                                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.00136e-05 secs using 199.7% CPU
+   1  Australia_DELIM-WNFSAOQQSUKGTRSTXCJB_VIC02_DELIM-WNFSAOQQSUKGTRSTXCJB_2020    0.79%    passed     99.99%
+   2  Australia_DELIM-WNFSAOQQSUKGTRSTXCJB_VIC03_DELIM-WNFSAOQQSUKGTRSTXCJB_2020    0.56%    passed    100.00%
+   3  Australia_DELIM-WNFSAOQQSUKGTRSTXCJB_VIC05_DELIM-WNFSAOQQSUKGTRSTXCJB_2020    0.55%    passed    100.00%
+   4  Australia_DELIM-WNFSAOQQSUKGTRSTXCJB_VIC04_DELIM-WNFSAOQQSUKGTRSTXCJB_2020    0.68%    passed    100.00%
+   5  Wuhan_DELIM-WNFSAOQQSUKGTRSTXCJB_Hu-1_DELIM-WNFSAOQQSUKGTRSTXCJB_2019         0.54%    passed    100.00%
+****  TOTAL                                                                         0.62%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 2.88486e-05 secs using 173.3% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -40529.915
+2. Current log-likelihood: -40522.047
+3. Current log-likelihood: -40521.345
+4. Current log-likelihood: -40519.914
+5. Current log-likelihood: -40519.284
+Optimal log-likelihood: -40519.282
+Rate parameters:  A-C: 0.00010  A-G: 4.39464  A-T: 0.75078  C-G: 1.89233  C-T: 7.99506  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 5 rounds (0.004 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 8.08239e-05 secs using 179.4% CPU
+Computing ML distances took 0.000133 sec (of wall-clock time) 0.000227 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 2.40803e-05 secs using 265.8% CPU
+Constructing RapidNJ tree: done in 3.09944e-05 secs using 193.6% CPU
+Computing RapidNJ tree took 0.000130 sec (of wall-clock time) 0.000272 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -40511.079
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 8 parsimony trees... 0.001 second
+Computing log-likelihood of 8 initial trees ... 0.001 seconds
+Current best score: -40511.049
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.000146866 secs using 282.6% CPU
+UPDATE BEST LOG-LIKELIHOOD: -40511.049
+Optimizing NNI: done in 0.000447035 secs using 193.3% CPU
+Finish initializing candidate tree set (10)
+Current best tree score: -40511.049 / CPU time: 0.004
+Number of iterations: 2
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.000464916 secs using 243.9% CPU
+Optimizing NNI: done in 0.000326872 secs using 258.8% CPU
+TREE SEARCH COMPLETED AFTER 4 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -40511.049
+Optimal log-likelihood: -40511.045
+Rate parameters:  A-C: 0.00010  A-G: 4.52657  A-T: 0.43553  C-G: 1.80257  C-T: 7.98363  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 1 rounds (0.000 sec)
+BEST SCORE FOUND : -40511.045
+Total tree length: 0.001
+
+Total number of iterations: 4
+CPU time used for tree search: 0.013 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.005 sec (0h:0m:0s)
+Total CPU time used: 0.042 sec (0h:0m:0s)
+Total wall-clock time used: 0.024 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/oceania_australia_victoria/masked_masked-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/oceania_australia_victoria/masked_masked-delim.fasta.treefile
+  Likelihood distances:          results/oceania_australia_victoria/masked_masked-delim.fasta.mldist
+  Screen log file:               results/oceania_australia_victoria/masked_masked-delim.fasta.log
+
+Date and Time: Sat Dec 25 13:37:56 2021

@@ -1,0 +1,99 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Asia",
+        "Australia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.43907592899240805,
+        0.5609240710075919
+      ],
+      "rate": 518.5069479543833,
+      "transition_matrix": [
+        [
+          0.0,
+          2.0301414485995553
+        ],
+        [
+          2.0301414485995553,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "Australia/VIC02/2020": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC03/2020": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC04/2020": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Australia/VIC05/2020": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "Australia",
+      "country_confidence": {
+        "Asia": 0.16403079286939468,
+        "Australia": 0.8359692071306053
+      },
+      "country_entropy": 0.4462938150816158
+    },
+    "NODE_0000001": {
+      "country": "Australia",
+      "country_confidence": {
+        "Asia": 0.31828336757436604,
+        "Australia": 0.681716632425634
+      },
+      "country_entropy": 0.6255687308168949
+    },
+    "NODE_0000002": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 0.5736285439629605,
+        "Australia": 0.4263714560370394
+      },
+      "country_entropy": 0.6822653263581948
+    },
+    "NODE_0000003": {
+      "country": "Australia",
+      "country_confidence": {
+        "Asia": 0.16403079286939468,
+        "Australia": 0.8359692071306053
+      },
+      "country_entropy": 0.4462938150816158
+    },
+    "Wuhan/Hu-1/2019": {
+      "country": "Asia",
+      "country_confidence": {
+        "Asia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    }
+  }
+}

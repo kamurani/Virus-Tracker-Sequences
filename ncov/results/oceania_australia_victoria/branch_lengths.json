@@ -1,0 +1,119 @@
+{
+  "alignment": "results/oceania_australia_victoria/masked.fasta",
+  "clock": {
+    "intercept": -1.6159654807056085,
+    "rate": 0.0008,
+    "rtt_Tmrca": 2019.9568508820105
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "input_tree": "results/oceania_australia_victoria/tree_raw.nwk",
+  "nodes": {
+    "Australia/VIC02/2020": {
+      "branch_length": 1,
+      "clock_length": 2.0808176123819936e-05,
+      "date": "2020-07-19",
+      "mutation_length": 1,
+      "num_date_confidence": [
+        2020.5478142076502,
+        2020.5478142076502
+      ],
+      "numdate": 2020.5478142076502,
+      "raw_date": "2020-07-19"
+    },
+    "Australia/VIC03/2020": {
+      "branch_length": 0,
+      "clock_length": 2.9113239523758565e-05,
+      "date": "2020-07-24",
+      "mutation_length": 0,
+      "num_date_confidence": [
+        2020.561475409836,
+        2020.561475409836
+      ],
+      "numdate": 2020.561475409836,
+      "raw_date": "2020-07-24"
+    },
+    "Australia/VIC04/2020": {
+      "branch_length": 1,
+      "clock_length": 7.693422025614348e-06,
+      "date": "2020-07-13",
+      "mutation_length": 1,
+      "num_date_confidence": [
+        2020.5314207650274,
+        2020.5314207650274
+      ],
+      "numdate": 2020.5314207650274,
+      "raw_date": "2020-07-13"
+    },
+    "Australia/VIC05/2020": {
+      "branch_length": 1,
+      "clock_length": 9.44110837626847e-06,
+      "date": "2020-07-15",
+      "mutation_length": 1,
+      "num_date_confidence": [
+        2020.5368852459017,
+        2020.5368852459017
+      ],
+      "numdate": 2020.5368852459017,
+      "raw_date": "2020-07-15"
+    },
+    "NODE_0000000": {
+      "branch_length": 1,
+      "clock_length": 5.558877171599804e-06,
+      "date": "2020-07-09",
+      "mutation_length": 1,
+      "num_date_confidence": [
+        2020.5040947229788,
+        2020.5314207650274
+      ],
+      "numdate": 2020.5218039874953
+    },
+    "NODE_0000001": {
+      "branch_length": 13,
+      "clock_length": 0.00042393910734526475,
+      "date": "2020-07-07",
+      "mutation_length": 13,
+      "num_date_confidence": [
+        2020.44825020921,
+        2020.525582096543
+      ],
+      "numdate": 2020.5148553910308
+    },
+    "NODE_0000002": {
+      "branch_length": 0,
+      "clock_length": 0.001,
+      "date": "2019-12-26",
+      "mutation_length": 0,
+      "num_date_confidence": [
+        2019.894062201124,
+        2019.9849315068493
+      ],
+      "numdate": 2019.9849315068493
+    },
+    "NODE_0000003": {
+      "branch_length": 0,
+      "clock_length": 8.182775520347617e-06,
+      "date": "2020-07-11",
+      "mutation_length": 0,
+      "num_date_confidence": [
+        2020.5044944881636,
+        2020.5356766516
+      ],
+      "numdate": 2020.5250838604313
+    },
+    "Wuhan/Hu-1/2019": {
+      "branch_length": 0,
+      "clock_length": 0.0,
+      "date": "2019-12-26",
+      "mutation_length": 0,
+      "num_date_confidence": [
+        2019.9849315068493,
+        2019.9849315068493
+      ],
+      "numdate": 2019.9849315068493,
+      "raw_date": "2019-12-26"
+    }
+  }
+}

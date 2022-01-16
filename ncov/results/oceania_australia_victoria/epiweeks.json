@@ -1,0 +1,23 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "Australia/VIC02/2020": {
+      "epiweek": "202030"
+    },
+    "Australia/VIC03/2020": {
+      "epiweek": "202030"
+    },
+    "Australia/VIC04/2020": {
+      "epiweek": "202029"
+    },
+    "Australia/VIC05/2020": {
+      "epiweek": "202029"
+    },
+    "Wuhan/Hu-1/2019": {
+      "epiweek": "201952"
+    }
+  }
+}

@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "build_url": "https://github.com/myusername/myrepository/",
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "division",
+        "scale": [
+          [
+            "Victoria",
+            "#4C90C0"
+          ]
+        ],
+        "title": "Admin Division",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "Australia",
+            "#4C90C0"
+          ]
+        ],
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "region",
+        "scale": [
+          [
+            "Oceania",
+            "#4C90C0"
+          ]
+        ],
+        "title": "Region",
+        "type": "categorical"
+      },
+      {
+        "key": "epiweek",
+        "title": "epiweek",
+        "type": "categorical"
+      },
+      {
+        "key": "emerging_lineage",
+        "title": "emerging_lineage",
+        "type": "categorical"
+      },
+      {
+        "key": "mutational_fitness",
+        "title": "mutational_fitness",
+        "type": "continuous"
+      },
+      {
+        "key": "logistic_growth",
+        "title": "logistic_growth",
+        "type": "continuous"
+      },
+      {
+        "key": "S1_mutations",
+        "title": "S1_mutations",
+        "type": "continuous"
+      }
+    ],
+    "description": "This is the description that appears below your visualization in Auspice. Edit me in `my_profiles/example/description.md`.\n",
+    "display_defaults": {
+      "branch_label": "none",
+      "color_by": "division",
+      "distance_measure": "num_date",
+      "geo_resolution": "division",
+      "map_triplicate": true
+    },
+    "filters": [
+      "recency",
+      "location",
+      "division",
+      "country",
+      "region",
+      "host",
+      "author"
+    ],
+    "genome_annotations": {
+      "E": {
+        "end": 26472,
+        "seqid": "MN908947",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 27191,
+        "seqid": "MN908947",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 29533,
+        "seqid": "MN908947",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1a": {
+        "end": 13468,
+        "seqid": "MN908947",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF1b": {
+        "end": 21555,
+        "seqid": "MN908947",
+        "start": 13468,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF3a": {
+        "end": 26220,
+        "seqid": "MN908947",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF6": {
+        "end": 27387,
+        "seqid": "MN908947",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7a": {
+        "end": 27759,
+        "seqid": "MN908947",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7b": {
+        "end": 27887,
+        "seqid": "MN908947",
+        "start": 27756,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF8": {
+        "end": 28259,
+        "seqid": "MN908947",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF9b": {
+        "end": 28577,
+        "seqid": "MN908947",
+        "start": 28284,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "S": {
+        "end": 25384,
+        "seqid": "MN908947",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "MN908947",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Asia": {
+            "latitude": 30.451098,
+            "longitude": 86.654576
+          },
+          "Victoria": {
+            "latitude": -37.121673,
+            "longitude": 144.106178
+          }
+        },
+        "key": "division"
+      },
+      {
+        "demes": {
+          "Asia": {
+            "latitude": 30.451098,
+            "longitude": 86.654576
+          },
+          "Australia": {
+            "latitude": -24.7761085,
+            "longitude": 134.755
+          }
+        },
+        "key": "country"
+      },
+      {
+        "demes": {
+          "Asia": {
+            "latitude": 30.451098,
+            "longitude": 86.654576
+          },
+          "Oceania": {
+            "latitude": -25.0562891,
+            "longitude": 152.008576
+          }
+        },
+        "key": "region"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "My name",
+        "url": "www.myurl.com"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy",
+      "frequencies"
+    ],
+    "title": "Genomic epidemiology of novel coronavirus - Oceania_Australia_Victoria-focused subsampling",
+    "updated": "2021-12-25"
+  },
+  "tree": {
+    "branch_attrs": {
+      "labels": {
+        "clade": "19A"
+      },
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "name": "Wuhan/Hu-1/2019",
+        "node_attrs": {
+          "S1_mutations": {
+            "value": 0.0
+          },
+          "clade_membership": {
+            "value": "19A"
+          },
+          "country": {
+            "confidence": {
+              "Asia": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "Asia"
+          },
+          "div": 0,
+          "division": {
+            "value": "Asia"
+          },
+          "emerging_lineage": {
+            "value": "19A"
+          },
+          "epiweek": {
+            "value": "201952"
+          },
+          "mutational_fitness": {
+            "value": 0.0
+          },
+          "num_date": {
+            "confidence": [
+              2019.9849315068493,
+              2019.9849315068493
+            ],
+            "value": 2019.9849315068493
+          },
+          "region": {
+            "value": "Asia"
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "ORF1a: I300F; ORF1b: P314L; S: S477N, D614G; N: R203K, G204R",
+            "clade": "20F"
+          },
+          "mutations": {
+            "N": [
+              "R203K",
+              "G204R"
+            ],
+            "ORF1a": [
+              "I300F"
+            ],
+            "ORF1b": [
+              "P314L"
+            ],
+            "S": [
+              "S477N",
+              "D614G"
+            ],
+            "nuc": [
+              "C241T",
+              "A1163T",
+              "C3037T",
+              "T7540C",
+              "C14408T",
+              "G16647T",
+              "C18555T",
+              "G22992A",
+              "G23401A",
+              "A23403G",
+              "G28881A",
+              "G28882A",
+              "G28883C",
+              "A29852-",
+              "G29853-"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C22480T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "N: P365S"
+                  },
+                  "mutations": {
+                    "N": [
+                      "P365S"
+                    ],
+                    "nuc": [
+                      "C29366T"
+                    ]
+                  }
+                },
+                "name": "Australia/VIC02/2020",
+                "node_attrs": {
+                  "S1_mutations": {
+                    "value": 2.0
+                  },
+                  "clade_membership": {
+                    "value": "20F"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Australia": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Australia"
+                  },
+                  "div": 15,
+                  "division": {
+                    "value": "Victoria"
+                  },
+                  "emerging_lineage": {
+                    "value": "20F"
+                  },
+                  "epiweek": {
+                    "value": "202030"
+                  },
+                  "mutational_fitness": {
+                    "value": 0.44147025
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2020.5478142076502,
+                      2020.5478142076502
+                    ],
+                    "value": 2020.5478142076502
+                  },
+                  "region": {
+                    "value": "Oceania"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1a: K141-, S142-, F143-"
+                  },
+                  "mutations": {
+                    "ORF1a": [
+                      "K141-",
+                      "S142-",
+                      "F143-"
+                    ],
+                    "nuc": [
+                      "A686-",
+                      "A687-",
+                      "G688-",
+                      "T689-",
+                      "C690-",
+                      "A691-",
+                      "T692-",
+                      "T693-",
+                      "T694-",
+                      "T23695C"
+                    ]
+                  }
+                },
+                "name": "Australia/VIC04/2020",
+                "node_attrs": {
+                  "S1_mutations": {
+                    "value": 2.0
+                  },
+                  "clade_membership": {
+                    "value": "20F"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Australia": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Australia"
+                  },
+                  "div": 15,
+                  "division": {
+                    "value": "Victoria"
+                  },
+                  "emerging_lineage": {
+                    "value": "20F"
+                  },
+                  "epiweek": {
+                    "value": "202029"
+                  },
+                  "mutational_fitness": {
+                    "value": 0.4658648
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2020.5314207650274,
+                      2020.5314207650274
+                    ],
+                    "value": 2020.5314207650274
+                  },
+                  "region": {
+                    "value": "Oceania"
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000000",
+            "node_attrs": {
+              "S1_mutations": {
+                "value": 2.0
+              },
+              "clade_membership": {
+                "value": "20F"
+              },
+              "country": {
+                "confidence": {
+                  "Asia": 0.16403079286939468,
+                  "Australia": 0.8359692071306053
+                },
+                "entropy": 0.4462938150816158,
+                "value": "Australia"
+              },
+              "div": 14,
+              "emerging_lineage": {
+                "value": "20F"
+              },
+              "mutational_fitness": {
+                "value": 0.4391848
+              },
+              "num_date": {
+                "confidence": [
+                  2020.5040947229788,
+                  2020.5314207650274
+                ],
+                "value": 2020.5218039874953
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF3a: N257S"
+                  },
+                  "mutations": {
+                    "ORF3a": [
+                      "N257S"
+                    ],
+                    "nuc": [
+                      "A26162G",
+                      "T29846-",
+                      "T29847-",
+                      "T29848-",
+                      "A29849-",
+                      "A29850-",
+                      "T29851-"
+                    ]
+                  }
+                },
+                "name": "Australia/VIC05/2020",
+                "node_attrs": {
+                  "S1_mutations": {
+                    "value": 2.0
+                  },
+                  "clade_membership": {
+                    "value": "20F"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Australia": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Australia"
+                  },
+                  "div": 14,
+                  "division": {
+                    "value": "Victoria"
+                  },
+                  "emerging_lineage": {
+                    "value": "20F"
+                  },
+                  "epiweek": {
+                    "value": "202029"
+                  },
+                  "mutational_fitness": {
+                    "value": 0.4361848
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2020.5368852459017,
+                      2020.5368852459017
+                    ],
+                    "value": 2020.5368852459017
+                  },
+                  "region": {
+                    "value": "Oceania"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "Australia/VIC03/2020",
+                "node_attrs": {
+                  "S1_mutations": {
+                    "value": 2.0
+                  },
+                  "clade_membership": {
+                    "value": "20F"
+                  },
+                  "country": {
+                    "confidence": {
+                      "Australia": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12,
+                    "value": "Australia"
+                  },
+                  "div": 13,
+                  "division": {
+                    "value": "Victoria"
+                  },
+                  "emerging_lineage": {
+                    "value": "20F"
+                  },
+                  "epiweek": {
+                    "value": "202030"
+                  },
+                  "mutational_fitness": {
+                    "value": 0.4391848
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2020.561475409836,
+                      2020.561475409836
+                    ],
+                    "value": 2020.561475409836
+                  },
+                  "region": {
+                    "value": "Oceania"
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "S1_mutations": {
+                "value": 2.0
+              },
+              "clade_membership": {
+                "value": "20F"
+              },
+              "country": {
+                "confidence": {
+                  "Asia": 0.16403079286939468,
+                  "Australia": 0.8359692071306053
+                },
+                "entropy": 0.4462938150816158,
+                "value": "Australia"
+              },
+              "div": 13,
+              "emerging_lineage": {
+                "value": "20F"
+              },
+              "mutational_fitness": {
+                "value": 0.4391848
+              },
+              "num_date": {
+                "confidence": [
+                  2020.5044944881636,
+                  2020.5356766516
+                ],
+                "value": 2020.5250838604313
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "S1_mutations": {
+            "value": 2.0
+          },
+          "clade_membership": {
+            "value": "20F"
+          },
+          "country": {
+            "confidence": {
+              "Asia": 0.31828336757436604,
+              "Australia": 0.681716632425634
+            },
+            "entropy": 0.6255687308168949,
+            "value": "Australia"
+          },
+          "div": 13,
+          "emerging_lineage": {
+            "value": "20F"
+          },
+          "mutational_fitness": {
+            "value": 0.4391848
+          },
+          "num_date": {
+            "confidence": [
+              2020.44825020921,
+              2020.525582096543
+            ],
+            "value": 2020.5148553910308
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000002",
+    "node_attrs": {
+      "S1_mutations": {
+        "value": 0.0
+      },
+      "clade_membership": {
+        "value": "19A"
+      },
+      "country": {
+        "confidence": {
+          "Asia": 0.5736285439629605,
+          "Australia": 0.4263714560370394
+        },
+        "entropy": 0.6822653263581948,
+        "value": "Asia"
+      },
+      "div": 0,
+      "emerging_lineage": {
+        "value": "19A"
+      },
+      "mutational_fitness": {
+        "value": 0.0
+      },
+      "num_date": {
+        "confidence": [
+          2019.894062201124,
+          2019.9849315068493
+        ],
+        "value": 2019.9849315068493
+      }
+    }
+  },
+  "version": "v2"
+}

@@ -1,0 +1,31 @@
+{
+  "nodes": {
+    "Australia/VIC02/2020": {
+      "emerging_lineage": "20F"
+    },
+    "Australia/VIC03/2020": {
+      "emerging_lineage": "20F"
+    },
+    "Australia/VIC04/2020": {
+      "emerging_lineage": "20F"
+    },
+    "Australia/VIC05/2020": {
+      "emerging_lineage": "20F"
+    },
+    "NODE_0000000": {
+      "emerging_lineage": "20F"
+    },
+    "NODE_0000001": {
+      "emerging_lineage": "20F"
+    },
+    "NODE_0000002": {
+      "emerging_lineage": "19A"
+    },
+    "NODE_0000003": {
+      "emerging_lineage": "20F"
+    },
+    "Wuhan/Hu-1/2019": {
+      "emerging_lineage": "19A"
+    }
+  }
+}

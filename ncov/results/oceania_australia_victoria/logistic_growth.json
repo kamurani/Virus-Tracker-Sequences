@@ -1,0 +1,44 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "Australia/VIC02/2020": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    },
+    "Australia/VIC03/2020": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    },
+    "Australia/VIC04/2020": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    },
+    "Australia/VIC05/2020": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    },
+    "NODE_0000000": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    },
+    "NODE_0000001": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    },
+    "NODE_0000002": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    },
+    "NODE_0000003": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    },
+    "Wuhan/Hu-1/2019": {
+      "current_frequency": 0.0,
+      "logistic_growth": NaN
+    }
+  }
+}

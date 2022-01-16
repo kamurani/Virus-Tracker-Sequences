@@ -1,0 +1,48 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "Australia/VIC02/2020": {
+      "S1_mutations": 2.0
+    },
+    "Australia/VIC03/2020": {
+      "S1_mutations": 2.0
+    },
+    "Australia/VIC04/2020": {
+      "S1_mutations": 2.0
+    },
+    "Australia/VIC05/2020": {
+      "S1_mutations": 2.0
+    },
+    "NODE_0000000": {
+      "S1_mutations": 2.0
+    },
+    "NODE_0000001": {
+      "S1_mutations": 2.0
+    },
+    "NODE_0000002": {
+      "S1_mutations": 0.0
+    },
+    "NODE_0000003": {
+      "S1_mutations": 2.0
+    },
+    "Wuhan/Hu-1/2019": {
+      "S1_mutations": 0.0
+    }
+  },
+  "params": {
+    "attribute": [
+      "S1_mutations"
+    ],
+    "compare_to": [
+      "root"
+    ],
+    "earliest_date": null,
+    "latest_date": null,
+    "map_name": [
+      "S1"
+    ]
+  }
+}

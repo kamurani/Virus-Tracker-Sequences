@@ -1,0 +1,37 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "Australia/VIC02/2020": {
+      "clade_membership": "20F"
+    },
+    "Australia/VIC03/2020": {
+      "clade_membership": "20F"
+    },
+    "Australia/VIC04/2020": {
+      "clade_membership": "20F"
+    },
+    "Australia/VIC05/2020": {
+      "clade_membership": "20F"
+    },
+    "NODE_0000000": {
+      "clade_membership": "20F"
+    },
+    "NODE_0000001": {
+      "clade_annotation": "20F",
+      "clade_membership": "20F"
+    },
+    "NODE_0000002": {
+      "clade_annotation": "19A",
+      "clade_membership": "19A"
+    },
+    "NODE_0000003": {
+      "clade_membership": "20F"
+    },
+    "Wuhan/Hu-1/2019": {
+      "clade_membership": "19A"
+    }
+  }
+}

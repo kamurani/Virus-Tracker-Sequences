@@ -1,0 +1,48 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "Australia/VIC02/2020": {
+      "mutational_fitness": 0.44147025
+    },
+    "Australia/VIC03/2020": {
+      "mutational_fitness": 0.4391848
+    },
+    "Australia/VIC04/2020": {
+      "mutational_fitness": 0.4658648
+    },
+    "Australia/VIC05/2020": {
+      "mutational_fitness": 0.4361848
+    },
+    "NODE_0000000": {
+      "mutational_fitness": 0.4391848
+    },
+    "NODE_0000001": {
+      "mutational_fitness": 0.4391848
+    },
+    "NODE_0000002": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000003": {
+      "mutational_fitness": 0.4391848
+    },
+    "Wuhan/Hu-1/2019": {
+      "mutational_fitness": 0.0
+    }
+  },
+  "params": {
+    "attribute": [
+      "mutational_fitness"
+    ],
+    "compare_to": [
+      "root"
+    ],
+    "earliest_date": null,
+    "latest_date": null,
+    "map_name": [
+      "defaults/mutational_fitness_distance_map.json"
+    ]
+  }
+}
