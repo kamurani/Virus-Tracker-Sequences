@@ -1,0 +1,383 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Dec 21 2021 built Dec 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    GYs-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -ninit 2 -n 2 -me 0.05 -nt 2 -s results/north-america_usa_washington/masked_masked-delim.fasta -m GTR -ninit 10 -n 4
+Seed:    54579 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Dec 25 08:20:15 2021
+Kernel:  AVX+FMA - 2 threads (4 CPU cores detected)
+
+Reading alignment file results/north-america_usa_washington/masked_masked-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.152309 secs using 93.53% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0727961 secs using 175.4% CPU
+WARNING: 157 sites contain only gaps or ambiguous characters.
+Alignment has 262 sequences with 29903 columns, 1246 distinct patterns
+87 parsimony-informative, 264 singleton sites, 29552 constant sites
+                                                                                                                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000688076 secs using 170.9% CPU
+   1  Wuhan_DELIM-WCCNZDJFMKHTBEQWNFAD_Hu-1_DELIM-WCCNZDJFMKHTBEQWNFAD_2019                                               0.53%    passed    100.00%
+   2  Wuhan_DELIM-WCCNZDJFMKHTBEQWNFAD_WH01_DELIM-WCCNZDJFMKHTBEQWNFAD_2019                                               0.53%    passed     99.99%
+   3  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC1045_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                        1.32%    passed     99.97%
+   4  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC1135_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                        0.53%    passed    100.00%
+   5  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC1186_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                        2.01%    passed     99.09%
+   6  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC14_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          2.29%    passed     99.98%
+   7  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC207_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+   8  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC174_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.58%    passed    100.00%
+   9  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC489_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         1.24%    passed    100.00%
+  10  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC797_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         1.66%    passed     99.57%
+  11  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC824_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.54%    passed     99.98%
+  12  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC92_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.55%    passed    100.00%
+  13  Australia_DELIM-WCCNZDJFMKHTBEQWNFAD_VIC920_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         1.19%    passed     99.99%
+  14  China_DELIM-WCCNZDJFMKHTBEQWNFAD_Beijing_IME-BJ05_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                   0.53%    passed    100.00%
+  15  China_DELIM-WCCNZDJFMKHTBEQWNFAD_Wuhan_YB012611_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.53%    passed     99.98%
+  16  China_DELIM-WCCNZDJFMKHTBEQWNFAD_WHUHnCoV020_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                        0.94%    passed     99.95%
+  17  ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                 0.53%    passed    100.00%
+  18  France_DELIM-WCCNZDJFMKHTBEQWNFAD_10006HC_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  19  France_DELIM-WCCNZDJFMKHTBEQWNFAD_10015BY_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  20  France_DELIM-WCCNZDJFMKHTBEQWNFAD_10060KV_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  21  France_DELIM-WCCNZDJFMKHTBEQWNFAD_10078MA_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  22  France_DELIM-WCCNZDJFMKHTBEQWNFAD_40003KA_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  23  Germany_DELIM-WCCNZDJFMKHTBEQWNFAD_BavPat1-ChVir929_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                 0.58%    passed    100.00%
+  24  Germany_DELIM-WCCNZDJFMKHTBEQWNFAD_BavPat3-ChVir1020_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                0.53%    passed    100.00%
+  25  Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_246_32206_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.56%    passed    100.00%
+  26  Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_139_32716_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.56%    passed    100.00%
+  27  Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_259_31928_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.56%    passed    100.00%
+  28  Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_248_32261_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.56%    passed    100.00%
+  29  Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_37_35684_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.56%    passed    100.00%
+  30  Guam_DELIM-WCCNZDJFMKHTBEQWNFAD_GU-NHG-01_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  31  Hangzhou_DELIM-WCCNZDJFMKHTBEQWNFAD_HZ-1_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.58%    passed     99.99%
+  32  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC20_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.56%    passed    100.00%
+  33  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC26_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.67%    passed    100.00%
+  34  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC21_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.73%    passed     99.99%
+  35  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC51_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.56%    passed    100.00%
+  36  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC29_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.56%    passed    100.00%
+  37  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC56a_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.56%    passed    100.00%
+  38  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC8_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.56%    passed     99.99%
+  39  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC88a_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.56%    passed    100.00%
+  40  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC85_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.56%    passed    100.00%
+  41  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GMC-KP1125_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+  42  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GBRC96_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.81%    passed     99.93%
+  43  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GMCKN318_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  44  India_DELIM-WCCNZDJFMKHTBEQWNFAD_GMCTC469_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  45  Iran_DELIM-WCCNZDJFMKHTBEQWNFAD_HGRC-1.1-IPI-8206_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                   0.53%    passed     99.99%
+  46  Jamaica_DELIM-WCCNZDJFMKHTBEQWNFAD_JM-CDC-7286_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                      0.53%    passed    100.00%
+  47  Japan_DELIM-WCCNZDJFMKHTBEQWNFAD_P4-6_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                               0.53%    passed    100.00%
+  48  Malaysia_DELIM-WCCNZDJFMKHTBEQWNFAD_189332_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed     99.99%
+  49  Spain_DELIM-WCCNZDJFMKHTBEQWNFAD_Valencia002_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                        5.89%    passed     99.09%
+  50  Spain_DELIM-WCCNZDJFMKHTBEQWNFAD_Valencia003_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                        0.59%    passed    100.00%
+  51  Spain_DELIM-WCCNZDJFMKHTBEQWNFAD_Valencia8_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.58%    passed    100.00%
+  52  Spain_DELIM-WCCNZDJFMKHTBEQWNFAD_Valencia22_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         4.44%    passed     99.66%
+  53  Taiwan_DELIM-WCCNZDJFMKHTBEQWNFAD_CGMH-CGU-07_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                       0.53%    passed    100.00%
+  54  SriLanka_DELIM-WCCNZDJFMKHTBEQWNFAD_COV38_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed     99.99%
+  55  Thailand_DELIM-WCCNZDJFMKHTBEQWNFAD_SI200615-NT_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.89%    passed     99.92%
+  56  Thailand_DELIM-WCCNZDJFMKHTBEQWNFAD_SI204487-NT_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.88%    passed     99.97%
+  57  Thailand_DELIM-WCCNZDJFMKHTBEQWNFAD_SI204514-NT_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.59%    passed    100.00%
+  58  Thailand_DELIM-WCCNZDJFMKHTBEQWNFAD_SI204512-NT_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.93%    passed     99.93%
+  59  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_AK153_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                                0.53%    passed    100.00%
+  60  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_AK178_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                                0.53%    passed    100.00%
+  61  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CDPH-UC11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+  62  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CDPH-UC28_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         1.55%    passed     99.33%
+  63  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CDPH-UC8_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          3.20%    passed     99.79%
+  64  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1022_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          1.45%    passed     99.99%
+  65  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1025_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  66  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1033_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  67  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1045_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed     99.99%
+  68  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1046_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  69  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1052_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          5.35%    passed     99.06%
+  70  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1085_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed     99.99%
+  71  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_AZ-ASU2923_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           1.54%    passed     99.94%
+  72  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1092_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed     99.99%
+  73  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1071_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.60%    passed    100.00%
+  74  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1097_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  75  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1111_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          1.15%    passed     99.86%
+  76  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1114_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          8.05%    passed     97.05%
+  77  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1136_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed     99.99%
+  78  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1197_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  79  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1206_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.59%    passed    100.00%
+  80  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1211_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  81  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1219_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  82  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1223_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  83  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1231_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+  84  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB0137_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  85  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB0147_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  86  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB040_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            2.40%    passed     99.97%
+  87  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB0750_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  88  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB076_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            1.10%    passed    100.00%
+  89  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB091_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.53%    passed    100.00%
+  90  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-SCCPHD-UC13_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                       0.85%    passed     99.97%
+  91  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CT-UW-4244_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  92  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CT-UW-4347_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+  93  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CT-UW-4343_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.56%    passed    100.00%
+  94  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CT-UW-5043_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           1.06%    passed     99.68%
+  95  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CT-UW-5773_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed     99.99%
+  96  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CT-UW423_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+  97  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CZB-RR057-005_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                        0.53%    passed    100.00%
+  98  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_FL_9656_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+  99  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_FL_5125_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 100  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_HI_7881_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 101  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_GA_2742_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 102  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_ID-UW-4254_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed     99.99%
+ 103  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_ID-UW-4547_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           2.27%    passed     94.60%
+ 104  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_ID-UW-4552_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 105  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_ID-UW-6472_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.59%    passed     99.99%
+ 106  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_LA-BIE-072_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           4.25%    passed     99.94%
+ 107  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_IN_2001_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 108  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_LA_0842_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed     99.99%
+ 109  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_LA-EVTL01_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.53%    passed    100.00%
+ 110  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MA_8933_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 111  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20020_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     1.43%    passed     99.99%
+ 112  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20062_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     1.56%    passed     99.95%
+ 113  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20072_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     3.34%    passed     99.66%
+ 114  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20090_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     3.80%    passed     98.27%
+ 115  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20097_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     2.37%    passed     99.87%
+ 116  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20105_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     2.24%    passed     99.86%
+ 117  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20110_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.53%    passed    100.00%
+ 118  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20123_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     2.85%    passed     99.60%
+ 119  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20148_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.59%    passed    100.00%
+ 120  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20169_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.62%    passed     99.98%
+ 121  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20149_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.53%    passed    100.00%
+ 122  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20170_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     1.51%    passed     99.79%
+ 123  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20224_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.69%    passed     99.99%
+ 124  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20228_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     5.42%    passed     97.86%
+ 125  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20239_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.54%    passed    100.00%
+ 126  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20259_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.53%    passed    100.00%
+ 127  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20281_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     2.38%    passed     99.68%
+ 128  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20284_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     1.46%    passed     99.98%
+ 129  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20302_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     1.55%    passed     99.98%
+ 130  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20314_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     1.44%    passed     99.98%
+ 131  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20337_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.56%    passed    100.00%
+ 132  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20356_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     0.57%    passed    100.00%
+ 133  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20389_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     4.46%    passed     98.27%
+ 134  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NE_6605_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 135  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-CDC-SURV0144NYC_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                   0.53%    passed    100.00%
+ 136  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-CDC-SURV0319NYC_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                   0.53%    passed    100.00%
+ 137  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-CDC-SURV0475NYC_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                   0.53%    passed    100.00%
+ 138  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV08120_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.61%    passed    100.00%
+ 139  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV08136_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.67%    passed     99.99%
+ 140  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV08138_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.77%    passed    100.00%
+ 141  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV08455_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.77%    passed    100.00%
+ 142  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV08452_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.77%    passed    100.00%
+ 143  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09029_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.79%    passed    100.00%
+ 144  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09063_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.82%    passed     99.98%
+ 145  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09044_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.79%    passed    100.00%
+ 146  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09099_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.78%    passed     99.98%
+ 147  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09116_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.77%    passed     99.99%
+ 148  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09122_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.78%    passed    100.00%
+ 149  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09143_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.84%    passed     99.99%
+ 150  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09144_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.77%    passed    100.00%
+ 151  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09145_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.79%    passed    100.00%
+ 152  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09152_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           1.31%    passed     99.96%
+ 153  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09153_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.78%    passed    100.00%
+ 154  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_NY-PV09307_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.84%    passed     99.99%
+ 155  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_OH-MDHHS-SC20370_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                     3.02%    passed     98.72%
+ 156  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_OR-UW409_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.97%    passed     99.83%
+ 157  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_PA_2735_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.55%    passed    100.00%
+ 158  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_PA_4395_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 159  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_SC_3569_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed     99.99%
+ 160  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UNC_200181_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 161  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_USA-WA_0442_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+ 162  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_USA-WA_0480_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+ 163  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_USA-WA_0447_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                          0.53%    passed    100.00%
+ 164  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UT-00009_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             1.66%    passed     99.89%
+ 165  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UT-00291_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             2.27%    passed     99.86%
+ 166  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UT-00348_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             1.43%    passed     99.99%
+ 167  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UT-00297_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             1.42%    passed     99.99%
+ 168  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0007_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         1.07%    passed    100.00%
+ 169  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0009_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 170  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0038_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 171  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0018_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 172  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0053_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 173  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0077_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 174  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0067_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 175  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0110_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed     99.96%
+ 176  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0115_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         1.68%    passed     99.75%
+ 177  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0120_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 178  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0185_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 179  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0188_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 180  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0197_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 181  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0199_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 182  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0205_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                         0.53%    passed    100.00%
+ 183  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-NH17_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 184  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-NH22_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 185  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-NH5_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                               0.53%    passed    100.00%
+ 186  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1315_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.54%    passed    100.00%
+ 187  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1296_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 188  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1319_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.70%    passed     99.95%
+ 189  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1322_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 190  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1329_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed     99.99%
+ 191  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1327_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.66%    passed     99.99%
+ 192  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1338_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 193  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1567_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.56%    passed    100.00%
+ 194  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1593_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.97%    passed     99.88%
+ 195  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1599_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 196  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-2082_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           1.26%    passed     99.38%
+ 197  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-2141_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.61%    passed     99.98%
+ 198  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-2212_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 199  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-2164_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.72%    passed     99.95%
+ 200  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-2218_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.61%    passed    100.00%
+ 201  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-2234_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.54%    passed    100.00%
+ 202  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-3819_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.54%    passed    100.00%
+ 203  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-3814_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 204  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-3855_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 205  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-3881_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 206  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-3889_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.68%    passed    100.00%
+ 207  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-3900_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 208  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4026_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 209  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4067_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 210  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4291_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 211  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4213_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 212  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4407_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 213  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4414_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 214  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4593_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 215  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4549_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 216  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4897_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           1.96%    passed     97.26%
+ 217  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-5025_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.67%    passed     99.97%
+ 218  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-5169_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 219  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-5166_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.63%    passed     99.99%
+ 220  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-5756_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 221  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-604_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.53%    passed    100.00%
+ 222  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-6162_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.54%    passed    100.00%
+ 223  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-6491_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 224  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW120_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.58%    passed    100.00%
+ 225  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW155_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 226  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW198_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 227  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW210_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 228  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW223_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 229  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW225_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.54%    passed    100.00%
+ 230  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW227_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 231  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW249_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.93%    passed     99.95%
+ 232  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW259_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 233  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW255_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             1.05%    passed     99.81%
+ 234  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW265_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 235  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW262_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 236  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW282_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 237  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW274_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.60%    passed    100.00%
+ 238  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW288_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 239  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW286_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.72%    passed     99.98%
+ 240  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW315_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 241  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW323_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 242  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW337_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 243  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW338_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.54%    passed    100.00%
+ 244  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW340_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.54%    passed    100.00%
+ 245  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW384_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                             0.53%    passed    100.00%
+ 246  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW42_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.63%    passed    100.00%
+ 247  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW50_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 248  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW46_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 249  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW90_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.54%    passed    100.00%
+ 250  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA1_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                                  0.53%    passed    100.00%
+ 251  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA4-UW2_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 252  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA_5030_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                              0.53%    passed    100.00%
+ 253  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WI-UW-261_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.58%    passed    100.00%
+ 254  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WI-UW-266_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.58%    passed     99.99%
+ 255  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WI-UW-268_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.58%    passed    100.00%
+ 256  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WI-UW-351_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.58%    passed    100.00%
+ 257  USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WI-UW-360_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                            0.58%    passed    100.00%
+ 258  Vietnam_DELIM-WCCNZDJFMKHTBEQWNFAD_nCoV-19-02S_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                      0.53%    passed    100.00%
+ 259  Wuhan_DELIM-WCCNZDJFMKHTBEQWNFAD_IPBCAMS-WH-03_DELIM-WCCNZDJFMKHTBEQWNFAD_2019                                      0.53%    passed     99.99%
+ 260  Uruguay_DELIM-WCCNZDJFMKHTBEQWNFAD_Mdeo-1_DELIM-WCCNZDJFMKHTBEQWNFAD_2020                                           0.53%    passed    100.00%
+ 261  mink_DELIM-WCCNZDJFMKHTBEQWNFAD_Netherlands_DELIM-WCCNZDJFMKHTBEQWNFAD_NB02_06KS_DELIM-WCCNZDJFMKHTBEQWNFAD_2020    0.54%    passed     99.98%
+ 262  mink_DELIM-WCCNZDJFMKHTBEQWNFAD_Netherlands_DELIM-WCCNZDJFMKHTBEQWNFAD_NB01_01KS_DELIM-WCCNZDJFMKHTBEQWNFAD_2020    0.97%    passed     99.92%
+****  TOTAL                                                                                                               0.89%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: France_DELIM-WCCNZDJFMKHTBEQWNFAD_10060KV_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to Wuhan_DELIM-WCCNZDJFMKHTBEQWNFAD_Hu-1_DELIM-WCCNZDJFMKHTBEQWNFAD_2019 but kept for subsequent analysis
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1097_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: France_DELIM-WCCNZDJFMKHTBEQWNFAD_10078MA_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to France_DELIM-WCCNZDJFMKHTBEQWNFAD_10006HC_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: France_DELIM-WCCNZDJFMKHTBEQWNFAD_40003KA_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to France_DELIM-WCCNZDJFMKHTBEQWNFAD_10015BY_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_259_31928_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_139_32716_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1085_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1045_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_ID-UW-4552_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB0137_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW227_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_LA-EVTL01_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0009_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_PA_4395_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_USA-WA_0480_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_USA-WA_0442_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0199_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 is identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0197_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00166917 secs using 172.6% CPU
+Identifying sites to remove: done in 0.064182 secs using 195% CPU
+NOTE: 16 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_USA-WA_0447_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0018_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-NH22_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1338_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW262_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW315_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA4-UW2_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to ENV_DELIM-WCCNZDJFMKHTBEQWNFAD_USA_DELIM-WCCNZDJFMKHTBEQWNFAD_UF-11_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_CA-CZB-1197_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to France_DELIM-WCCNZDJFMKHTBEQWNFAD_10015BY_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_MI-MDHHS-SC20149_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to France_DELIM-WCCNZDJFMKHTBEQWNFAD_10015BY_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-4407_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to France_DELIM-WCCNZDJFMKHTBEQWNFAD_10015BY_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW259_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to France_DELIM-WCCNZDJFMKHTBEQWNFAD_10015BY_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_37_35684_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to Greece_DELIM-WCCNZDJFMKHTBEQWNFAD_139_32716_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW223_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_PA_4395_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-NH17_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_USA-WA_0442_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_WA-UW-1599_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_USA-WA_0442_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+NOTE: USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0205_DELIM-WCCNZDJFMKHTBEQWNFAD_2020 (identical to USA_DELIM-WCCNZDJFMKHTBEQWNFAD_VA-DCLS-0197_DELIM-WCCNZDJFMKHTBEQWNFAD_2020) is ignored but added at the end
+Alignment was printed to results/north-america_usa_washington/masked_masked-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/north-america_usa_washington/masked_masked-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 9 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -53409.665
+2. Current log-likelihood: -52995.628
+3. Current log-likelihood: -52420.431
+Optimal log-likelihood: -52420.384
+Rate parameters:  A-C: 0.10787  A-G: 1.50524  A-T: 0.06974  C-G: 0.20036  C-T: 4.91063  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 3 rounds (0.997 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.161031 secs using 193% CPU
+Computing ML distances took 0.162565 sec (of wall-clock time) 0.313343 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000824928 secs using 219.8% CPU
+Constructing RapidNJ tree: done in 0.00559902 secs using 275.9% CPU
+Computing RapidNJ tree took 0.006517 sec (of wall-clock time) 0.018066 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -44427.378
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 8 parsimony trees... 0.069 second
+Computing log-likelihood of 8 initial trees ... 0.245 seconds
+Current best score: -44427.378
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.279864 secs using 194.4% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -44416.315
+Optimizing NNI: done in 2.20093 secs using 189.1% CPU
+Finish initializing candidate tree set (12)
+Current best tree score: -44416.315 / CPU time: 3.066
+Number of iterations: 2
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.393905 secs using 193.6% CPU
+Optimizing NNI: done in 0.606128 secs using 195.1% CPU
+TREE SEARCH COMPLETED AFTER 4 ITERATIONS / Time: 0h:0m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -44416.315
+Optimal log-likelihood: -44416.300
+Rate parameters:  A-C: 0.21784  A-G: 1.26868  A-T: 0.13669  C-G: 0.22784  C-T: 3.43173  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 1 rounds (0.073 sec)
+BEST SCORE FOUND : -44416.300
+Total tree length: 0.013
+
+Total number of iterations: 4
+CPU time used for tree search: 7.862 sec (0h:0m:7s)
+Wall-clock time used for tree search: 4.106 sec (0h:0m:4s)
+Total CPU time used: 10.647 sec (0h:0m:10s)
+Total wall-clock time used: 5.516 sec (0h:0m:5s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/north-america_usa_washington/masked_masked-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/north-america_usa_washington/masked_masked-delim.fasta.treefile
+  Likelihood distances:          results/north-america_usa_washington/masked_masked-delim.fasta.mldist
+  Screen log file:               results/north-america_usa_washington/masked_masked-delim.fasta.log
+
+Date and Time: Sat Dec 25 08:20:21 2021

@@ -1,0 +1,1410 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "Australia/VIC1045/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "Australia/VIC1135/2020": {
+      "mutational_fitness": 0.312073807
+    },
+    "Australia/VIC1186/2020": {
+      "mutational_fitness": 0.295559
+    },
+    "Australia/VIC14/2020": {
+      "mutational_fitness": 0.0
+    },
+    "Australia/VIC174/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "Australia/VIC207/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "Australia/VIC489/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "Australia/VIC797/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "Australia/VIC824/2020": {
+      "mutational_fitness": 0.30393299
+    },
+    "Australia/VIC92/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "Australia/VIC920/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "China/Beijing_IME-BJ05/2020": {
+      "mutational_fitness": 0.00834275
+    },
+    "China/WHUHnCoV020/2020": {
+      "mutational_fitness": 0.231623
+    },
+    "China/Wuhan_YB012611/2020": {
+      "mutational_fitness": -0.006
+    },
+    "ENV/USA/UF-11/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "France/10006HC/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "France/10015BY/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "France/10060KV/2020": {
+      "mutational_fitness": 0.0
+    },
+    "France/10078MA/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "France/40003KA/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "Germany/BavPat1-ChVir929/2020": {
+      "mutational_fitness": 0.128009
+    },
+    "Germany/BavPat3-ChVir1020/2020": {
+      "mutational_fitness": 0.128009
+    },
+    "Greece/139_32716/2020": {
+      "mutational_fitness": 0.346679
+    },
+    "Greece/246_32206/2020": {
+      "mutational_fitness": 0.32408791
+    },
+    "Greece/248_32261/2020": {
+      "mutational_fitness": 0.3198724
+    },
+    "Greece/259_31928/2020": {
+      "mutational_fitness": 0.346679
+    },
+    "Greece/37_35684/2020": {
+      "mutational_fitness": 0.346679
+    },
+    "Guam/GU-NHG-01/2020": {
+      "mutational_fitness": 0.2573736
+    },
+    "Hangzhou/HZ-1/2020": {
+      "mutational_fitness": 0.0
+    },
+    "India/GBRC20/2020": {
+      "mutational_fitness": 0.3228724
+    },
+    "India/GBRC21/2020": {
+      "mutational_fitness": 0.31045910000000004
+    },
+    "India/GBRC26/2020": {
+      "mutational_fitness": 0.5625244
+    },
+    "India/GBRC29/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "India/GBRC51/2020": {
+      "mutational_fitness": 0.39319970000000004
+    },
+    "India/GBRC56a/2020": {
+      "mutational_fitness": 0.330946833
+    },
+    "India/GBRC8/2020": {
+      "mutational_fitness": 0.3827647
+    },
+    "India/GBRC85/2020": {
+      "mutational_fitness": 0.38991534
+    },
+    "India/GBRC88a/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "India/GBRC96/2020": {
+      "mutational_fitness": 0.28869318000000005
+    },
+    "India/GMC-KP1125/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "India/GMCKN318/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "India/GMCTC469/2020": {
+      "mutational_fitness": 0.346679
+    },
+    "Iran/HGRC-1.1-IPI-8206/2020": {
+      "mutational_fitness": 0.22119818
+    },
+    "Jamaica/JM-CDC-7286/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "Japan/P4-6/2020": {
+      "mutational_fitness": 0.346679
+    },
+    "Malaysia/189332/2020": {
+      "mutational_fitness": 0.280449
+    },
+    "NODE_0000000": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000002": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000004": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000006": {
+      "mutational_fitness": 0.2633736
+    },
+    "NODE_0000007": {
+      "mutational_fitness": 0.0902829
+    },
+    "NODE_0000009": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000010": {
+      "mutational_fitness": 0.31021489999999996
+    },
+    "NODE_0000011": {
+      "mutational_fitness": 0.31021489999999996
+    },
+    "NODE_0000012": {
+      "mutational_fitness": 0.31021489999999996
+    },
+    "NODE_0000013": {
+      "mutational_fitness": 0.31021489999999996
+    },
+    "NODE_0000014": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000015": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000016": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000017": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000018": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000019": {
+      "mutational_fitness": 0.236652
+    },
+    "NODE_0000020": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000021": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000022": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000023": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000024": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000026": {
+      "mutational_fitness": 0.234623
+    },
+    "NODE_0000027": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000028": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000029": {
+      "mutational_fitness": 0.236652
+    },
+    "NODE_0000030": {
+      "mutational_fitness": 0.264891314
+    },
+    "NODE_0000031": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000032": {
+      "mutational_fitness": 0.27058035999999996
+    },
+    "NODE_0000034": {
+      "mutational_fitness": 0.0
+    },
+    "NODE_0000035": {
+      "mutational_fitness": 0.234623
+    },
+    "NODE_0000036": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000037": {
+      "mutational_fitness": 0.27058035999999996
+    },
+    "NODE_0000038": {
+      "mutational_fitness": 0.27058035999999996
+    },
+    "NODE_0000047": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000048": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000049": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000050": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000051": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000052": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000053": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000054": {
+      "mutational_fitness": 0.214837019
+    },
+    "NODE_0000055": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000056": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000057": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000058": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000059": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000060": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000061": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000062": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000063": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000064": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000065": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000066": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000067": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000068": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000069": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000070": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000072": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000073": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000074": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000075": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000076": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000077": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000078": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000079": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000080": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000081": {
+      "mutational_fitness": 0.21272067
+    },
+    "NODE_0000082": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000083": {
+      "mutational_fitness": 0.21572067
+    },
+    "NODE_0000086": {
+      "mutational_fitness": 0.24906667
+    },
+    "NODE_0000087": {
+      "mutational_fitness": 0.17606957
+    },
+    "NODE_0000089": {
+      "mutational_fitness": 0.0902829
+    },
+    "NODE_0000090": {
+      "mutational_fitness": 0.2254139
+    },
+    "NODE_0000091": {
+      "mutational_fitness": 0.2254139
+    },
+    "NODE_0000092": {
+      "mutational_fitness": 0.346679
+    },
+    "NODE_0000093": {
+      "mutational_fitness": 0.2633736
+    },
+    "NODE_0000094": {
+      "mutational_fitness": 0.346679
+    },
+    "NODE_0000095": {
+      "mutational_fitness": 0.346679
+    },
+    "NODE_0000096": {
+      "mutational_fitness": 0.31021489999999996
+    },
+    "NODE_0000097": {
+      "mutational_fitness": 0.346679
+    },
+    "NODE_0000098": {
+      "mutational_fitness": 0.31021489999999996
+    },
+    "NODE_0000099": {
+      "mutational_fitness": 0.346679
+    },
+    "NODE_0000100": {
+      "mutational_fitness": 0.346679
+    },
+    "NODE_0000101": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000102": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000103": {
+      "mutational_fitness": 0.128009
+    },
+    "NODE_0000104": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000105": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000106": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000107": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000108": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000109": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000110": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000111": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000112": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000113": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000114": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000115": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000116": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000117": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000118": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000119": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000122": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000125": {
+      "mutational_fitness": 0.298559
+    },
+    "NODE_0000126": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000127": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000128": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000129": {
+      "mutational_fitness": 0.346679
+    },
+    "NODE_0000130": {
+      "mutational_fitness": 0.3786065700000001
+    },
+    "NODE_0000131": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000132": {
+      "mutational_fitness": 0.346679
+    },
+    "NODE_0000133": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000134": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000135": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000136": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000137": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000138": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000139": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000140": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000141": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000142": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000143": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000145": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000147": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000154": {
+      "mutational_fitness": 0.335995608
+    },
+    "NODE_0000155": {
+      "mutational_fitness": 0.315073807
+    },
+    "NODE_0000156": {
+      "mutational_fitness": 0.315073807
+    },
+    "NODE_0000157": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000158": {
+      "mutational_fitness": 0.315073807
+    },
+    "NODE_0000159": {
+      "mutational_fitness": 0.315073807
+    },
+    "NODE_0000160": {
+      "mutational_fitness": 0.315073807
+    },
+    "NODE_0000161": {
+      "mutational_fitness": 0.315073807
+    },
+    "NODE_0000163": {
+      "mutational_fitness": 0.3258724
+    },
+    "NODE_0000164": {
+      "mutational_fitness": 0.3827647
+    },
+    "NODE_0000165": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000166": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000167": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000168": {
+      "mutational_fitness": 0.2972419
+    },
+    "NODE_0000169": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000170": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000171": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000172": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000173": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000174": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000175": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000176": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000177": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000178": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000179": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000180": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000181": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000182": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000183": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000184": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000185": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000186": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000187": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000188": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000189": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000190": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000191": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000192": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000193": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000194": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000195": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000196": {
+      "mutational_fitness": 0.3026368
+    },
+    "NODE_0000197": {
+      "mutational_fitness": 0.30393299
+    },
+    "NODE_0000198": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000199": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000200": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000201": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000202": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000203": {
+      "mutational_fitness": 0.31080103000000003
+    },
+    "NODE_0000204": {
+      "mutational_fitness": 0.4049588
+    },
+    "NODE_0000205": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000206": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000207": {
+      "mutational_fitness": 0.31402503000000004
+    },
+    "NODE_0000208": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000209": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000211": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000212": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000213": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000214": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000215": {
+      "mutational_fitness": 0.31207077
+    },
+    "NODE_0000216": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000217": {
+      "mutational_fitness": 0.314139008
+    },
+    "NODE_0000218": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000219": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000220": {
+      "mutational_fitness": 0.335995608
+    },
+    "NODE_0000221": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000222": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000223": {
+      "mutational_fitness": 0.315073807
+    },
+    "NODE_0000224": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000225": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000226": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000227": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000233": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000243": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000244": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000258": {
+      "mutational_fitness": 0.3146759
+    },
+    "NODE_0000260": {
+      "mutational_fitness": 0.0
+    },
+    "Spain/Valencia002/2020": {
+      "mutational_fitness": 0.26758035999999996
+    },
+    "Spain/Valencia003/2020": {
+      "mutational_fitness": 0.27058035999999996
+    },
+    "Spain/Valencia22/2020": {
+      "mutational_fitness": 0.27058035999999996
+    },
+    "Spain/Valencia8/2020": {
+      "mutational_fitness": 0.27058035999999996
+    },
+    "SriLanka/COV38/2020": {
+      "mutational_fitness": 0.21460869999999999
+    },
+    "Taiwan/CGMH-CGU-07/2020": {
+      "mutational_fitness": 0.2082174
+    },
+    "Thailand/SI200615-NT/2020": {
+      "mutational_fitness": 0.0034339099999999997
+    },
+    "Thailand/SI204487-NT/2020": {
+      "mutational_fitness": 0.267691
+    },
+    "Thailand/SI204512-NT/2020": {
+      "mutational_fitness": 0.29511837
+    },
+    "Thailand/SI204514-NT/2020": {
+      "mutational_fitness": 0.26433553
+    },
+    "USA/AK153/2020": {
+      "mutational_fitness": 0.31080103000000003
+    },
+    "USA/AK178/2020": {
+      "mutational_fitness": 0.39864415000000003
+    },
+    "USA/AZ-ASU2923/2020": {
+      "mutational_fitness": 0.3517342
+    },
+    "USA/CA-CDPH-UC11/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/CA-CDPH-UC28/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/CA-CDPH-UC8/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/CA-CZB-1022/2020": {
+      "mutational_fitness": 0.0
+    },
+    "USA/CA-CZB-1025/2020": {
+      "mutational_fitness": -0.003
+    },
+    "USA/CA-CZB-1033/2020": {
+      "mutational_fitness": 0.233652
+    },
+    "USA/CA-CZB-1045/2020": {
+      "mutational_fitness": 0.0
+    },
+    "USA/CA-CZB-1046/2020": {
+      "mutational_fitness": 0.230652
+    },
+    "USA/CA-CZB-1052/2020": {
+      "mutational_fitness": 0.236652
+    },
+    "USA/CA-CZB-1071/2020": {
+      "mutational_fitness": 0.0
+    },
+    "USA/CA-CZB-1085/2020": {
+      "mutational_fitness": 0.0
+    },
+    "USA/CA-CZB-1092/2020": {
+      "mutational_fitness": -0.003
+    },
+    "USA/CA-CZB-1097/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/CA-CZB-1111/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/CA-CZB-1114/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/CA-CZB-1136/2020": {
+      "mutational_fitness": 0.312888928
+    },
+    "USA/CA-CZB-1197/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/CA-CZB-1206/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "USA/CA-CZB-1211/2020": {
+      "mutational_fitness": 0.34247
+    },
+    "USA/CA-CZB-1219/2020": {
+      "mutational_fitness": 0.0
+    },
+    "USA/CA-CZB-1223/2020": {
+      "mutational_fitness": -0.006
+    },
+    "USA/CA-CZB-1231/2020": {
+      "mutational_fitness": 0.2633736
+    },
+    "USA/CA-CZB0137/2020": {
+      "mutational_fitness": 0.315073807
+    },
+    "USA/CA-CZB0147/2020": {
+      "mutational_fitness": 0.2462319
+    },
+    "USA/CA-CZB040/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/CA-CZB0750/2020": {
+      "mutational_fitness": 0.31402503000000004
+    },
+    "USA/CA-CZB076/2020": {
+      "mutational_fitness": 0.20972067
+    },
+    "USA/CA-CZB091/2020": {
+      "mutational_fitness": 0.21058334
+    },
+    "USA/CA-SCCPHD-UC13/2020": {
+      "mutational_fitness": 0.0
+    },
+    "USA/CT-UW-4244/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/CT-UW-4343/2020": {
+      "mutational_fitness": 0.3353559
+    },
+    "USA/CT-UW-4347/2020": {
+      "mutational_fitness": 0.314012153
+    },
+    "USA/CT-UW-5043/2020": {
+      "mutational_fitness": 0.31515098999999996
+    },
+    "USA/CT-UW-5773/2020": {
+      "mutational_fitness": 0.30093299
+    },
+    "USA/CT-UW423/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/CZB-RR057-005/2020": {
+      "mutational_fitness": 0.31214274999999997
+    },
+    "USA/FL_5125/2020": {
+      "mutational_fitness": 0.346679
+    },
+    "USA/FL_9656/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/GA_2742/2020": {
+      "mutational_fitness": 0.33780805
+    },
+    "USA/HI_7881/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/ID-UW-4254/2020": {
+      "mutational_fitness": 0.319369177
+    },
+    "USA/ID-UW-4547/2020": {
+      "mutational_fitness": 0.312073807
+    },
+    "USA/ID-UW-4552/2020": {
+      "mutational_fitness": 0.315073807
+    },
+    "USA/ID-UW-6472/2020": {
+      "mutational_fitness": 0.312073807
+    },
+    "USA/IN_2001/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "USA/LA-BIE-072/2020": {
+      "mutational_fitness": 0.311139008
+    },
+    "USA/LA-EVTL01/2020": {
+      "mutational_fitness": 0.335995608
+    },
+    "USA/LA_0842/2020": {
+      "mutational_fitness": 0.329995608
+    },
+    "USA/MA_8933/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/MI-MDHHS-SC20020/2020": {
+      "mutational_fitness": 0.315073807
+    },
+    "USA/MI-MDHHS-SC20062/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20072/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/MI-MDHHS-SC20090/2020": {
+      "mutational_fitness": 0.32294906
+    },
+    "USA/MI-MDHHS-SC20097/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20105/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20110/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20123/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20148/2020": {
+      "mutational_fitness": 0.325145
+    },
+    "USA/MI-MDHHS-SC20149/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20169/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20170/2020": {
+      "mutational_fitness": 0.31687750000000003
+    },
+    "USA/MI-MDHHS-SC20224/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20228/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/MI-MDHHS-SC20239/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20259/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/MI-MDHHS-SC20281/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20284/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/MI-MDHHS-SC20302/2020": {
+      "mutational_fitness": 0.347569
+    },
+    "USA/MI-MDHHS-SC20314/2020": {
+      "mutational_fitness": 0.31021489999999996
+    },
+    "USA/MI-MDHHS-SC20337/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/MI-MDHHS-SC20356/2020": {
+      "mutational_fitness": 0.3667006
+    },
+    "USA/MI-MDHHS-SC20389/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/NE_6605/2020": {
+      "mutational_fitness": 0.22419499999999998
+    },
+    "USA/NY-CDC-SURV0144NYC/2020": {
+      "mutational_fitness": 0.00692307
+    },
+    "USA/NY-CDC-SURV0319NYC/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/NY-CDC-SURV0475NYC/2020": {
+      "mutational_fitness": 0.3026368
+    },
+    "USA/NY-PV08120/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/NY-PV08136/2020": {
+      "mutational_fitness": 0.30895825499999996
+    },
+    "USA/NY-PV08138/2020": {
+      "mutational_fitness": 0.31207077
+    },
+    "USA/NY-PV08452/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/NY-PV08455/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/NY-PV09029/2020": {
+      "mutational_fitness": 0.31305779
+    },
+    "USA/NY-PV09044/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/NY-PV09063/2020": {
+      "mutational_fitness": 0.31061890999999997
+    },
+    "USA/NY-PV09099/2020": {
+      "mutational_fitness": 0.31021489999999996
+    },
+    "USA/NY-PV09116/2020": {
+      "mutational_fitness": 0.346679
+    },
+    "USA/NY-PV09122/2020": {
+      "mutational_fitness": 0.295559
+    },
+    "USA/NY-PV09143/2020": {
+      "mutational_fitness": 0.31207077
+    },
+    "USA/NY-PV09144/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/NY-PV09145/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/NY-PV09152/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/NY-PV09153/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/NY-PV09307/2020": {
+      "mutational_fitness": 0.32223911
+    },
+    "USA/OH-MDHHS-SC20370/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "USA/OR-UW409/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/PA_2735/2020": {
+      "mutational_fitness": 0.33429915000000004
+    },
+    "USA/PA_4395/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/SC_3569/2020": {
+      "mutational_fitness": 0.264891314
+    },
+    "USA/UNC_200181/2020": {
+      "mutational_fitness": 0.275047114
+    },
+    "USA/USA-WA_0442/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/USA-WA_0447/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/USA-WA_0480/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/UT-00009/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "USA/UT-00291/2020": {
+      "mutational_fitness": 0.323039108
+    },
+    "USA/UT-00297/2020": {
+      "mutational_fitness": 0.3140583
+    },
+    "USA/UT-00348/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/VA-DCLS-0007/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/VA-DCLS-0009/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/VA-DCLS-0018/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/VA-DCLS-0038/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/VA-DCLS-0053/2020": {
+      "mutational_fitness": 0.34909634
+    },
+    "USA/VA-DCLS-0067/2020": {
+      "mutational_fitness": 0.34133071
+    },
+    "USA/VA-DCLS-0077/2020": {
+      "mutational_fitness": 0.31066409
+    },
+    "USA/VA-DCLS-0110/2020": {
+      "mutational_fitness": 0.31771583000000003
+    },
+    "USA/VA-DCLS-0115/2020": {
+      "mutational_fitness": 0.3786065700000001
+    },
+    "USA/VA-DCLS-0120/2020": {
+      "mutational_fitness": 0.37808954400000006
+    },
+    "USA/VA-DCLS-0185/2020": {
+      "mutational_fitness": 0.2972419
+    },
+    "USA/VA-DCLS-0188/2020": {
+      "mutational_fitness": 0.2972419
+    },
+    "USA/VA-DCLS-0197/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/VA-DCLS-0199/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/VA-DCLS-0205/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/WA-NH17/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-NH22/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-NH5/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW-1296/2020": {
+      "mutational_fitness": 0.20972067
+    },
+    "USA/WA-UW-1315/2020": {
+      "mutational_fitness": 0.2090785
+    },
+    "USA/WA-UW-1319/2020": {
+      "mutational_fitness": 0.315073807
+    },
+    "USA/WA-UW-1322/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/WA-UW-1327/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW-1329/2020": {
+      "mutational_fitness": 0.47228610000000004
+    },
+    "USA/WA-UW-1338/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW-1567/2020": {
+      "mutational_fitness": 0.30420010000000003
+    },
+    "USA/WA-UW-1593/2020": {
+      "mutational_fitness": 0.32920976
+    },
+    "USA/WA-UW-1599/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW-2082/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW-2141/2020": {
+      "mutational_fitness": 0.2120309
+    },
+    "USA/WA-UW-2164/2020": {
+      "mutational_fitness": 0.216431884
+    },
+    "USA/WA-UW-2212/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/WA-UW-2218/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/WA-UW-2234/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-3814/2020": {
+      "mutational_fitness": 0.20837257
+    },
+    "USA/WA-UW-3819/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-3855/2020": {
+      "mutational_fitness": 0.314277459
+    },
+    "USA/WA-UW-3881/2020": {
+      "mutational_fitness": 0.3275476
+    },
+    "USA/WA-UW-3889/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-3900/2020": {
+      "mutational_fitness": 0.17306957
+    },
+    "USA/WA-UW-4026/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/WA-UW-4067/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/WA-UW-4213/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-4291/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-4407/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-4414/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/WA-UW-4549/2020": {
+      "mutational_fitness": 0.31628124
+    },
+    "USA/WA-UW-4593/2020": {
+      "mutational_fitness": 0.3103618
+    },
+    "USA/WA-UW-4897/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-5025/2020": {
+      "mutational_fitness": 0.31151774000000004
+    },
+    "USA/WA-UW-5166/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-5169/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW-5756/2020": {
+      "mutational_fitness": 0.31841033
+    },
+    "USA/WA-UW-604/2020": {
+      "mutational_fitness": 0.21358925
+    },
+    "USA/WA-UW-6162/2020": {
+      "mutational_fitness": 0.24099366
+    },
+    "USA/WA-UW-6491/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/WA-UW120/2020": {
+      "mutational_fitness": 0.298559
+    },
+    "USA/WA-UW155/2020": {
+      "mutational_fitness": 0.3116759
+    },
+    "USA/WA-UW198/2020": {
+      "mutational_fitness": 0.24606667
+    },
+    "USA/WA-UW210/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW223/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "USA/WA-UW225/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/WA-UW227/2020": {
+      "mutational_fitness": 0.335995608
+    },
+    "USA/WA-UW249/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW255/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/WA-UW259/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW262/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW265/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW274/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW282/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW286/2020": {
+      "mutational_fitness": 0.21183701900000002
+    },
+    "USA/WA-UW288/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW315/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW323/2020": {
+      "mutational_fitness": 0.214837019
+    },
+    "USA/WA-UW337/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WA-UW338/2020": {
+      "mutational_fitness": 0.214837019
+    },
+    "USA/WA-UW340/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/WA-UW384/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW42/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/WA-UW46/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA-UW50/2020": {
+      "mutational_fitness": 0.21272067
+    },
+    "USA/WA-UW90/2020": {
+      "mutational_fitness": 0.215144395
+    },
+    "USA/WA1/2020": {
+      "mutational_fitness": 0.234623
+    },
+    "USA/WA4-UW2/2020": {
+      "mutational_fitness": 0.21572067
+    },
+    "USA/WA_5030/2020": {
+      "mutational_fitness": 0.29882109
+    },
+    "USA/WI-UW-261/2020": {
+      "mutational_fitness": 0.4049588
+    },
+    "USA/WI-UW-266/2020": {
+      "mutational_fitness": -0.003
+    },
+    "USA/WI-UW-268/2020": {
+      "mutational_fitness": 0.3146759
+    },
+    "USA/WI-UW-351/2020": {
+      "mutational_fitness": 0.35589250000000006
+    },
+    "USA/WI-UW-360/2020": {
+      "mutational_fitness": 0.3258724
+    },
+    "Uruguay/Mdeo-1/2020": {
+      "mutational_fitness": 0.234623
+    },
+    "Vietnam/nCoV-19-02S/2020": {
+      "mutational_fitness": -0.003
+    },
+    "Wuhan/Hu-1/2019": {
+      "mutational_fitness": 0.0
+    },
+    "Wuhan/IPBCAMS-WH-03/2019": {
+      "mutational_fitness": -0.003
+    },
+    "Wuhan/WH01/2019": {
+      "mutational_fitness": -0.006
+    },
+    "mink/Netherlands/NB01_01KS/2020": {
+      "mutational_fitness": 0.3286466838
+    },
+    "mink/Netherlands/NB02_06KS/2020": {
+      "mutational_fitness": 0.28008275
+    }
+  },
+  "params": {
+    "attribute": [
+      "mutational_fitness"
+    ],
+    "compare_to": [
+      "root"
+    ],
+    "earliest_date": null,
+    "latest_date": null,
+    "map_name": [
+      "defaults/mutational_fitness_distance_map.json"
+    ]
+  }
+}
