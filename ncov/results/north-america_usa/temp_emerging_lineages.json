@@ -1,0 +1,1634 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "nodes": {
+    "Australia/VIC05/2020": {
+      "clade_membership": "19B"
+    },
+    "Australia/VIC1018/2020": {
+      "clade_membership": "20A"
+    },
+    "Australia/VIC1038/2020": {
+      "clade_membership": "20B"
+    },
+    "Australia/VIC1045/2020": {
+      "clade_membership": "20C"
+    },
+    "Australia/VIC1062/2020": {
+      "clade_membership": "20A"
+    },
+    "Australia/VIC1135/2020": {
+      "clade_membership": "20C"
+    },
+    "Australia/VIC1186/2020": {
+      "clade_membership": "20A"
+    },
+    "Australia/VIC14/2020": {
+      "clade_membership": "19A"
+    },
+    "Australia/VIC17/2020": {
+      "clade_membership": "19B"
+    },
+    "Australia/VIC174/2020": {
+      "clade_membership": "20A"
+    },
+    "Australia/VIC207/2020": {
+      "clade_membership": "20C"
+    },
+    "Australia/VIC241/2020": {
+      "clade_membership": "19B"
+    },
+    "Australia/VIC27/2020": {
+      "clade_membership": "19B"
+    },
+    "Australia/VIC489/2020": {
+      "clade_membership": "20A"
+    },
+    "Australia/VIC734/2020": {
+      "clade_membership": "19B"
+    },
+    "Australia/VIC797/2020": {
+      "clade_membership": "20A"
+    },
+    "Australia/VIC800/2020": {
+      "clade_membership": "20A"
+    },
+    "Australia/VIC824/2020": {
+      "clade_membership": "20C"
+    },
+    "Australia/VIC851/2020": {
+      "clade_membership": "20B"
+    },
+    "Australia/VIC92/2020": {
+      "clade_membership": "20A"
+    },
+    "Australia/VIC920/2020": {
+      "clade_membership": "20A"
+    },
+    "China/Beijing_IME-BJ05/2020": {
+      "clade_membership": "19A"
+    },
+    "China/WHUHnCoV020/2020": {
+      "clade_membership": "19B"
+    },
+    "China/Wuhan_YB012611/2020": {
+      "clade_membership": "19A"
+    },
+    "ENV/USA/UF-11/2020": {
+      "clade_membership": "19B"
+    },
+    "France/10006HC/2020": {
+      "clade_membership": "20A"
+    },
+    "France/10015BY/2020": {
+      "clade_membership": "20C"
+    },
+    "France/10023FD/2020": {
+      "clade_membership": "20C"
+    },
+    "France/10041MR/2020": {
+      "clade_membership": "19A"
+    },
+    "France/10045DZ/2020": {
+      "clade_membership": "20A"
+    },
+    "France/10060KV/2020": {
+      "clade_membership": "19A"
+    },
+    "France/10068ND/2020": {
+      "clade_membership": "19A"
+    },
+    "France/10078MA/2020": {
+      "clade_membership": "20A"
+    },
+    "France/40003KA/2020": {
+      "clade_membership": "20C"
+    },
+    "France/50001AR/2020": {
+      "clade_membership": "20C"
+    },
+    "Germany/BavPat1-ChVir929/2020": {
+      "clade_membership": "19A"
+    },
+    "Germany/BavPat3-ChVir1020/2020": {
+      "clade_membership": "19A"
+    },
+    "Greece/139_32716/2020": {
+      "clade_membership": "20B"
+    },
+    "Greece/209_33926/2020": {
+      "clade_annotation": "20D",
+      "clade_membership": "20D"
+    },
+    "Greece/222_33921/2020": {
+      "clade_membership": "20B"
+    },
+    "Greece/226_35576/2020": {
+      "clade_membership": "19A"
+    },
+    "Greece/227_35969/2020": {
+      "clade_membership": "20B"
+    },
+    "Greece/246_32206/2020": {
+      "clade_membership": "20A"
+    },
+    "Greece/248_32261/2020": {
+      "clade_membership": "20A"
+    },
+    "Greece/259_31928/2020": {
+      "clade_membership": "20B"
+    },
+    "Greece/37_35684/2020": {
+      "clade_membership": "20B"
+    },
+    "Greece/41_36861/2020": {
+      "clade_membership": "20B"
+    },
+    "Guam/GU-NHG-01/2020": {
+      "clade_membership": "19A"
+    },
+    "Hangzhou/HZ-1/2020": {
+      "clade_membership": "19A"
+    },
+    "India/GBRC14/2020": {
+      "clade_membership": "19A"
+    },
+    "India/GBRC20/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC21/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC26/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC29/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC51/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC56a/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC8/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC85/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC88a/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC9/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GBRC96/2020": {
+      "clade_membership": "19A"
+    },
+    "India/GBRC97a/2020": {
+      "clade_membership": "20B"
+    },
+    "India/GMC-KP1125/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GMCKN318/2020": {
+      "clade_membership": "20A"
+    },
+    "India/GMCTC469/2020": {
+      "clade_membership": "20B"
+    },
+    "India/nimh-2873/2020": {
+      "clade_membership": "19A"
+    },
+    "India/nimh-3952/2020": {
+      "clade_membership": "20A"
+    },
+    "Iran/HGRC-1.1-IPI-8206/2020": {
+      "clade_membership": "19A"
+    },
+    "Jamaica/JM-CDC-7286/2020": {
+      "clade_membership": "20C"
+    },
+    "Japan/P4-6/2020": {
+      "clade_membership": "20B"
+    },
+    "Malaysia/189332/2020": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000000": {
+      "clade_annotation": "19A",
+      "clade_membership": "19A"
+    },
+    "NODE_0000007": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000008": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000009": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000010": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000011": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000013": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000014": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000015": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000016": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000018": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000019": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000020": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000021": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000022": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000023": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000024": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000025": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000026": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000027": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000028": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000031": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000033": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000035": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000037": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000038": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000039": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000040": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000041": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000042": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000043": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000044": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000045": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000046": {
+      "clade_annotation": "19B",
+      "clade_membership": "19B"
+    },
+    "NODE_0000047": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000048": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000049": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000050": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000051": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000052": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000054": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000055": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000056": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000057": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000058": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000059": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000060": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000061": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000062": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000063": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000064": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000065": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000066": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000067": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000068": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000069": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000070": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000071": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000072": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000073": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000074": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000075": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000076": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000077": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000078": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000079": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000080": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000081": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000082": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000083": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000084": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000085": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000086": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000087": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000088": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000089": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000090": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000092": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000093": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000094": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000095": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000100": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000105": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000106": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000107": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000108": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000109": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000110": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000111": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000112": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000113": {
+      "clade_membership": "19B"
+    },
+    "NODE_0000114": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000115": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000116": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000117": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000118": {
+      "clade_annotation": "20A",
+      "clade_membership": "20A"
+    },
+    "NODE_0000119": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000120": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000121": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000122": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000123": {
+      "clade_annotation": "20B",
+      "clade_membership": "20B"
+    },
+    "NODE_0000124": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000125": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000126": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000127": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000128": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000129": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000130": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000131": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000132": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000133": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000134": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000135": {
+      "clade_membership": "20B"
+    },
+    "NODE_0000136": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000137": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000138": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000139": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000140": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000141": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000142": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000143": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000146": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000147": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000148": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000149": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000150": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000151": {
+      "clade_membership": "19A"
+    },
+    "NODE_0000152": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000153": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000154": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000155": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000156": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000157": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000158": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000159": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000160": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000161": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000162": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000163": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000164": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000165": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000166": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000167": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000168": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000172": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000173": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000176": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000179": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000182": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000184": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000185": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000186": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000187": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000188": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000189": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000192": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000193": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000194": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000196": {
+      "clade_annotation": "20C",
+      "clade_membership": "20C"
+    },
+    "NODE_0000197": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000198": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000199": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000200": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000201": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000202": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000203": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000204": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000205": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000206": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000207": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000208": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000209": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000210": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000211": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000212": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000213": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000214": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000215": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000216": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000217": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000218": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000219": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000220": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000221": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000222": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000223": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000224": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000225": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000226": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000227": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000228": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000229": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000230": {
+      "clade_membership": "20A"
+    },
+    "NODE_0000231": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000232": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000233": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000234": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000235": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000236": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000237": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000238": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000239": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000240": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000241": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000242": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000243": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000244": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000245": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000246": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000247": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000248": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000249": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000250": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000251": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000252": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000253": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000254": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000255": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000256": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000257": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000258": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000259": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000260": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000265": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000266": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000267": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000268": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000269": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000270": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000271": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000273": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000275": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000280": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000284": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000286": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000299": {
+      "clade_membership": "20C"
+    },
+    "NODE_0000301": {
+      "clade_membership": "19A"
+    },
+    "Spain/Valencia002/2020": {
+      "clade_membership": "19B"
+    },
+    "Spain/Valencia003/2020": {
+      "clade_membership": "19B"
+    },
+    "Spain/Valencia22/2020": {
+      "clade_membership": "19B"
+    },
+    "Spain/Valencia8/2020": {
+      "clade_membership": "19B"
+    },
+    "SriLanka/COV38/2020": {
+      "clade_membership": "19A"
+    },
+    "Taiwan/CGMH-CGU-07/2020": {
+      "clade_membership": "19A"
+    },
+    "Thailand/SI200615-NT/2020": {
+      "clade_membership": "19A"
+    },
+    "Thailand/SI204487-NT/2020": {
+      "clade_membership": "19A"
+    },
+    "Thailand/SI204512-NT/2020": {
+      "clade_membership": "20A"
+    },
+    "Thailand/SI204514-NT/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/AK153/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/AK178/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/AZ-ASU2923/2020": {
+      "clade_membership": "20B"
+    },
+    "USA/CA-CDPH-UC11/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-CDPH-UC28/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-CDPH-UC8/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-CZB-1022/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1025/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1033/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1045/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1046/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1052/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1071/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1085/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1092/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1097/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-CZB-1111/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-CZB-1114/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-CZB-1136/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CA-CZB-1197/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CA-CZB-1206/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/CA-CZB-1211/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1219/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1223/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB-1231/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CA-CZB0137/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CA-CZB0147/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CA-CZB040/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-CZB0750/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CA-CZB076/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-CZB091/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CA-SCCPHD-UC13/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/CT-UW-4244/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CT-UW-4343/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CT-UW-4347/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CT-UW-5043/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CT-UW-5773/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/CT-UW423/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/CZB-RR057-005/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/FL_5125/2020": {
+      "clade_membership": "20B"
+    },
+    "USA/FL_9656/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/GA_2742/2020": {
+      "clade_membership": "20B"
+    },
+    "USA/HI_7881/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/ID-UW-4254/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/ID-UW-4547/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/ID-UW-4552/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/ID-UW-6472/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/IN_2001/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/LA-BIE-072/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/LA-EVTL01/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/LA_0842/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MA_8933/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/MI-MDHHS-SC20020/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20062/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20072/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/MI-MDHHS-SC20085/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20090/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/MI-MDHHS-SC20095/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20097/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20105/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20110/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20123/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20126/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20148/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/MI-MDHHS-SC20149/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20169/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20170/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20177/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/MI-MDHHS-SC20186/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/MI-MDHHS-SC20224/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20228/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/MI-MDHHS-SC20239/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20242/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/MI-MDHHS-SC20252/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20259/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/MI-MDHHS-SC20281/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20284/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20302/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20314/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/MI-MDHHS-SC20337/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20356/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20357/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20360/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20368/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/MI-MDHHS-SC20389/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NE_6605/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/NY-CDC-SURV0144NYC/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/NY-CDC-SURV0319NYC/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-CDC-SURV0475NYC/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV08120/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV08124/2020": {
+      "clade_membership": "20B"
+    },
+    "USA/NY-PV08136/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/NY-PV08138/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV08414/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/NY-PV08452/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV08455/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09029/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09044/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09063/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/NY-PV09099/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/NY-PV09116/2020": {
+      "clade_membership": "20B"
+    },
+    "USA/NY-PV09121/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09122/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/NY-PV09143/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09144/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09145/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09152/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/NY-PV09153/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09161/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/NY-PV09176/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09179/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/NY-PV09307/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/OH-MDHHS-SC20370/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/OR-UW409/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/PA_2735/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/PA_4395/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/SC_3569/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/UNC_200181/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/USA-WA_0442/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/USA-WA_0447/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/USA-WA_0480/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/UT-00009/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/UT-00291/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/UT-00297/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/UT-00348/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/VA-DCLS-0007/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/VA-DCLS-0009/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/VA-DCLS-0018/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/VA-DCLS-0038/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/VA-DCLS-0053/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/VA-DCLS-0067/2020": {
+      "clade_membership": "20B"
+    },
+    "USA/VA-DCLS-0077/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/VA-DCLS-0110/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/VA-DCLS-0115/2020": {
+      "clade_membership": "20B"
+    },
+    "USA/VA-DCLS-0120/2020": {
+      "clade_membership": "20B"
+    },
+    "USA/VA-DCLS-0185/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/VA-DCLS-0188/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/VA-DCLS-0197/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/VA-DCLS-0199/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/VA-DCLS-0205/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/WA-NH17/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-NH22/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-NH5/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-1296/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-1315/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-1319/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-1322/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-1327/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-1329/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-1338/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-1567/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-1593/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/WA-UW-1599/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-2082/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-2141/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-2164/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-2212/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-2218/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/WA-UW-2234/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-3814/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-3819/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-3855/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-3881/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-3889/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-3900/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-4026/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-4067/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-4213/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-4291/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-4407/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-4414/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-4549/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-4593/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-4897/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-5025/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-5166/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-5169/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-5756/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW-604/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-6162/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW-6491/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW120/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/WA-UW155/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW198/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW210/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW223/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/WA-UW225/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW227/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW249/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW255/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW259/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW262/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW265/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW274/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW282/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW286/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW288/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW315/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW323/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW337/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WA-UW338/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW340/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW384/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW42/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW46/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW50/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA-UW90/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA1/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA4-UW2/2020": {
+      "clade_membership": "19B"
+    },
+    "USA/WA_5030/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/WI-UW-261/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WI-UW-266/2020": {
+      "clade_membership": "19A"
+    },
+    "USA/WI-UW-268/2020": {
+      "clade_membership": "20C"
+    },
+    "USA/WI-UW-351/2020": {
+      "clade_membership": "20A"
+    },
+    "USA/WI-UW-360/2020": {
+      "clade_membership": "20A"
+    },
+    "Uruguay/Mdeo-1/2020": {
+      "clade_membership": "19B"
+    },
+    "Vietnam/nCoV-19-02S/2020": {
+      "clade_membership": "19A"
+    },
+    "Wuhan/Hu-1/2019": {
+      "clade_membership": "19A"
+    },
+    "Wuhan/IPBCAMS-WH-03/2019": {
+      "clade_membership": "19A"
+    },
+    "Wuhan/WH01/2019": {
+      "clade_membership": "19A"
+    },
+    "mink/Netherlands/NB01_01KS/2020": {
+      "clade_membership": "20A"
+    },
+    "mink/Netherlands/NB02_06KS/2020": {
+      "clade_membership": "19A"
+    }
+  }
+}

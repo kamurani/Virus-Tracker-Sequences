@@ -1,0 +1,424 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Dec 21 2021 built Dec 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    GYs-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -ninit 2 -n 2 -me 0.05 -nt 2 -s results/north-america_usa/masked_masked-delim.fasta -m GTR -ninit 10 -n 4
+Seed:    940091 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Dec 25 08:15:32 2021
+Kernel:  AVX+FMA - 2 threads (4 CPU cores detected)
+
+Reading alignment file results/north-america_usa/masked_masked-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.184999 secs using 92.94% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0790009 secs using 181.6% CPU
+WARNING: 157 sites contain only gaps or ambiguous characters.
+Alignment has 303 sequences with 29903 columns, 1736 distinct patterns
+95 parsimony-informative, 317 singleton sites, 29491 constant sites
+                                                                                                                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00201797 secs using 181.3% CPU
+   1  Wuhan_DELIM-CCVMFEIVVWHOZTYOKJHL_Hu-1_DELIM-CCVMFEIVVWHOZTYOKJHL_2019                                               0.53%    passed    100.00%
+   2  Wuhan_DELIM-CCVMFEIVVWHOZTYOKJHL_WH01_DELIM-CCVMFEIVVWHOZTYOKJHL_2019                                               0.53%    passed    100.00%
+   3  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC1018_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        1.15%    passed     99.98%
+   4  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC05_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          1.34%    passed     99.97%
+   5  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC1045_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        1.32%    passed     99.97%
+   6  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC1038_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        2.16%    passed     99.02%
+   7  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC1062_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        0.53%    passed    100.00%
+   8  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC1135_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        0.53%    passed    100.00%
+   9  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC1186_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        2.01%    passed     99.02%
+  10  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC14_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          2.29%    passed     99.99%
+  11  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC174_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.58%    passed    100.00%
+  12  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC17_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.57%    passed     99.99%
+  13  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC241_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.59%    passed    100.00%
+  14  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC207_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+  15  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC27_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.54%    passed    100.00%
+  16  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC489_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         1.24%    passed    100.00%
+  17  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC797_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         1.66%    passed     99.53%
+  18  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC734_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         1.15%    passed     99.98%
+  19  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC824_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.54%    passed     99.98%
+  20  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC800_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         1.19%    passed     99.99%
+  21  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC851_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         2.31%    passed     99.65%
+  22  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC92_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.55%    passed    100.00%
+  23  Australia_DELIM-CCVMFEIVVWHOZTYOKJHL_VIC920_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         1.19%    passed     99.99%
+  24  China_DELIM-CCVMFEIVVWHOZTYOKJHL_Beijing_IME-BJ05_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                   0.53%    passed    100.00%
+  25  China_DELIM-CCVMFEIVVWHOZTYOKJHL_WHUHnCoV020_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        0.94%    passed     99.95%
+  26  China_DELIM-CCVMFEIVVWHOZTYOKJHL_Wuhan_YB012611_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.53%    passed     99.98%
+  27  ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                 0.53%    passed    100.00%
+  28  France_DELIM-CCVMFEIVVWHOZTYOKJHL_10006HC_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  29  France_DELIM-CCVMFEIVVWHOZTYOKJHL_10015BY_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  30  France_DELIM-CCVMFEIVVWHOZTYOKJHL_10023FD_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  31  France_DELIM-CCVMFEIVVWHOZTYOKJHL_10045DZ_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  32  France_DELIM-CCVMFEIVVWHOZTYOKJHL_10041MR_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  33  France_DELIM-CCVMFEIVVWHOZTYOKJHL_10060KV_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  34  France_DELIM-CCVMFEIVVWHOZTYOKJHL_10068ND_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  35  France_DELIM-CCVMFEIVVWHOZTYOKJHL_40003KA_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  36  France_DELIM-CCVMFEIVVWHOZTYOKJHL_10078MA_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  37  Germany_DELIM-CCVMFEIVVWHOZTYOKJHL_BavPat1-ChVir929_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                 0.58%    passed    100.00%
+  38  France_DELIM-CCVMFEIVVWHOZTYOKJHL_50001AR_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed     99.98%
+  39  Germany_DELIM-CCVMFEIVVWHOZTYOKJHL_BavPat3-ChVir1020_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                0.53%    passed    100.00%
+  40  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_139_32716_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.56%    passed    100.00%
+  41  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_222_33921_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.69%    passed     99.99%
+  42  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_209_33926_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.67%    passed     99.95%
+  43  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_226_35576_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.56%    passed    100.00%
+  44  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_227_35969_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.62%    passed     99.99%
+  45  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_248_32261_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.56%    passed    100.00%
+  46  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_246_32206_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.56%    passed    100.00%
+  47  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_37_35684_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.56%    passed    100.00%
+  48  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_259_31928_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.56%    passed    100.00%
+  49  Guam_DELIM-CCVMFEIVVWHOZTYOKJHL_GU-NHG-01_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  50  Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_41_36861_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.56%    passed    100.00%
+  51  Hangzhou_DELIM-CCVMFEIVVWHOZTYOKJHL_HZ-1_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.58%    passed     99.99%
+  52  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC14_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             1.07%    passed     99.99%
+  53  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC20_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.56%    passed    100.00%
+  54  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC21_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.73%    passed     99.99%
+  55  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC26_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.67%    passed    100.00%
+  56  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC29_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.56%    passed    100.00%
+  57  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC51_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.56%    passed    100.00%
+  58  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC56a_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.56%    passed    100.00%
+  59  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC8_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.56%    passed     99.99%
+  60  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC85_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.56%    passed     99.99%
+  61  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC88a_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.56%    passed    100.00%
+  62  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC9_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.70%    passed     99.97%
+  63  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC97a_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.56%    passed     99.98%
+  64  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GBRC96_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.81%    passed     99.92%
+  65  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GMC-KP1125_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+  66  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GMCKN318_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  67  India_DELIM-CCVMFEIVVWHOZTYOKJHL_GMCTC469_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+  68  India_DELIM-CCVMFEIVVWHOZTYOKJHL_nimh-2873_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          2.19%    passed     99.98%
+  69  India_DELIM-CCVMFEIVVWHOZTYOKJHL_nimh-3952_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          2.28%    passed     99.96%
+  70  Iran_DELIM-CCVMFEIVVWHOZTYOKJHL_HGRC-1.1-IPI-8206_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                   0.53%    passed     99.99%
+  71  Japan_DELIM-CCVMFEIVVWHOZTYOKJHL_P4-6_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                               0.53%    passed    100.00%
+  72  Jamaica_DELIM-CCVMFEIVVWHOZTYOKJHL_JM-CDC-7286_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                      0.53%    passed    100.00%
+  73  Malaysia_DELIM-CCVMFEIVVWHOZTYOKJHL_189332_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed     99.99%
+  74  Spain_DELIM-CCVMFEIVVWHOZTYOKJHL_Valencia002_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        5.89%    passed     99.05%
+  75  Spain_DELIM-CCVMFEIVVWHOZTYOKJHL_Valencia003_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        0.59%    passed    100.00%
+  76  Spain_DELIM-CCVMFEIVVWHOZTYOKJHL_Valencia22_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         4.44%    passed     99.66%
+  77  SriLanka_DELIM-CCVMFEIVVWHOZTYOKJHL_COV38_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed     99.99%
+  78  Spain_DELIM-CCVMFEIVVWHOZTYOKJHL_Valencia8_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.58%    passed    100.00%
+  79  Thailand_DELIM-CCVMFEIVVWHOZTYOKJHL_SI200615-NT_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.89%    passed     99.92%
+  80  Taiwan_DELIM-CCVMFEIVVWHOZTYOKJHL_CGMH-CGU-07_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                       0.53%    passed    100.00%
+  81  Thailand_DELIM-CCVMFEIVVWHOZTYOKJHL_SI204487-NT_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.88%    passed     99.97%
+  82  Thailand_DELIM-CCVMFEIVVWHOZTYOKJHL_SI204512-NT_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.93%    passed     99.91%
+  83  Thailand_DELIM-CCVMFEIVVWHOZTYOKJHL_SI204514-NT_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.59%    passed    100.00%
+  84  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_AK153_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                                0.53%    passed    100.00%
+  85  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CDPH-UC11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+  86  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_AK178_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                                0.53%    passed     99.99%
+  87  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CDPH-UC28_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         1.55%    passed     99.38%
+  88  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CDPH-UC8_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          3.20%    passed     99.80%
+  89  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1022_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          1.45%    passed     99.99%
+  90  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1025_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+  91  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1033_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+  92  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1045_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+  93  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1046_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+  94  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1052_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          5.35%    passed     99.03%
+  95  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_AZ-ASU2923_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           1.54%    passed     99.95%
+  96  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1085_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+  97  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1071_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.60%    passed    100.00%
+  98  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1092_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+  99  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1097_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 100  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1111_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          1.15%    passed     99.84%
+ 101  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1114_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          8.05%    passed     97.01%
+ 102  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1136_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed     99.99%
+ 103  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1206_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.59%    passed    100.00%
+ 104  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1197_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 105  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1211_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 106  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1219_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 107  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1223_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 108  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1231_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 109  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB0137_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 110  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB0147_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 111  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB040_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            2.40%    passed     99.97%
+ 112  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB0750_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed     99.99%
+ 113  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB076_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            1.10%    passed    100.00%
+ 114  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB091_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.53%    passed    100.00%
+ 115  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-SCCPHD-UC13_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                       0.85%    passed     99.97%
+ 116  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CT-UW-4244_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 117  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CT-UW-4347_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 118  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CT-UW-4343_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.56%    passed    100.00%
+ 119  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CT-UW-5043_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           1.06%    passed     99.65%
+ 120  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CT-UW-5773_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed     99.99%
+ 121  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CT-UW423_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 122  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CZB-RR057-005_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                        0.53%    passed    100.00%
+ 123  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_FL_9656_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 124  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_FL_5125_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 125  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_GA_2742_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 126  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_HI_7881_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 127  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_ID-UW-4254_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed     99.99%
+ 128  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_ID-UW-4547_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           2.27%    passed     94.79%
+ 129  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_ID-UW-4552_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 130  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_ID-UW-6472_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.59%    passed     99.99%
+ 131  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_IN_2001_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 132  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_LA-BIE-072_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           4.25%    passed     99.94%
+ 133  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_LA-EVTL01_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.53%    passed     99.99%
+ 134  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_LA_0842_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed     99.98%
+ 135  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MA_8933_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 136  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20020_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     1.43%    passed     99.99%
+ 137  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20072_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     3.34%    passed     99.69%
+ 138  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20062_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     1.56%    passed     99.96%
+ 139  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20085_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     3.30%    passed     98.93%
+ 140  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20090_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     3.80%    passed     98.38%
+ 141  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20097_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     2.37%    passed     99.88%
+ 142  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20095_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     3.36%    passed     99.64%
+ 143  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20110_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.53%    passed    100.00%
+ 144  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20105_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     2.24%    passed     99.87%
+ 145  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20123_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     2.85%    passed     99.63%
+ 146  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20148_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.59%    passed    100.00%
+ 147  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20149_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.53%    passed    100.00%
+ 148  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20126_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     2.53%    passed     99.40%
+ 149  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20170_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     1.51%    passed     99.80%
+ 150  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20169_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.62%    passed     99.98%
+ 151  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20186_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     3.46%    passed     99.43%
+ 152  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20177_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     4.67%    passed     99.33%
+ 153  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20224_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.69%    passed     99.99%
+ 154  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20228_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     5.42%    passed     97.98%
+ 155  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20239_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.54%    passed    100.00%
+ 156  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20242_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.53%    passed     99.99%
+ 157  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20259_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.53%    passed    100.00%
+ 158  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20252_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     4.10%    passed     99.49%
+ 159  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20281_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     2.38%    passed     99.71%
+ 160  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20284_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     1.46%    passed     99.99%
+ 161  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20314_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     1.44%    passed     99.98%
+ 162  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20302_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     1.55%    passed     99.98%
+ 163  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20356_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.57%    passed    100.00%
+ 164  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20337_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.56%    passed    100.00%
+ 165  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20357_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     0.66%    passed     99.99%
+ 166  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20360_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     5.66%    passed     97.67%
+ 167  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20368_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     3.27%    passed     98.96%
+ 168  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20389_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     4.46%    passed     98.36%
+ 169  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NE_6605_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 170  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-CDC-SURV0144NYC_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                   0.53%    passed    100.00%
+ 171  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-CDC-SURV0319NYC_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                   0.53%    passed    100.00%
+ 172  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-CDC-SURV0475NYC_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                   0.53%    passed    100.00%
+ 173  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV08120_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.61%    passed    100.00%
+ 174  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV08124_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.77%    passed     99.99%
+ 175  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV08136_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.67%    passed    100.00%
+ 176  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV08138_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.77%    passed    100.00%
+ 177  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV08414_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           4.52%    passed     90.11%
+ 178  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV08455_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.77%    passed    100.00%
+ 179  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09029_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.79%    passed     99.99%
+ 180  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV08452_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.77%    passed    100.00%
+ 181  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09044_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.79%    passed    100.00%
+ 182  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09063_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.82%    passed     99.98%
+ 183  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09099_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.78%    passed     99.98%
+ 184  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09116_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.77%    passed     99.99%
+ 185  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09121_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           1.71%    passed     99.99%
+ 186  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09122_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.78%    passed    100.00%
+ 187  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09143_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.84%    passed     99.98%
+ 188  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09144_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.77%    passed    100.00%
+ 189  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09152_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           1.31%    passed     99.96%
+ 190  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09145_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.79%    passed     99.99%
+ 191  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09161_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           4.57%    passed     94.35%
+ 192  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09153_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.78%    passed    100.00%
+ 193  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09176_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.91%    passed    100.00%
+ 194  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09179_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           2.36%    passed     99.78%
+ 195  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_OH-MDHHS-SC20370_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                     3.02%    passed     98.82%
+ 196  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_NY-PV09307_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.84%    passed     99.99%
+ 197  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_OR-UW409_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.97%    passed     99.81%
+ 198  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_PA_2735_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.55%    passed    100.00%
+ 199  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_SC_3569_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed     99.99%
+ 200  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_PA_4395_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 201  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UNC_200181_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 202  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_USA-WA_0442_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 203  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_USA-WA_0447_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 204  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_USA-WA_0480_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                          0.53%    passed    100.00%
+ 205  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UT-00291_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             2.27%    passed     99.86%
+ 206  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UT-00009_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             1.66%    passed     99.91%
+ 207  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UT-00348_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             1.43%    passed    100.00%
+ 208  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UT-00297_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             1.42%    passed     99.99%
+ 209  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0007_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         1.07%    passed    100.00%
+ 210  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0009_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 211  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0038_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 212  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0018_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 213  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0053_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 214  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0077_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 215  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0110_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed     99.95%
+ 216  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0067_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 217  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0115_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         1.68%    passed     99.72%
+ 218  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0120_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 219  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0185_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 220  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0188_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 221  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0197_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 222  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0199_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 223  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0205_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                         0.53%    passed    100.00%
+ 224  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-NH17_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 225  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-NH5_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                               0.53%    passed    100.00%
+ 226  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-NH22_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 227  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1315_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.54%    passed    100.00%
+ 228  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1296_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 229  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1319_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.70%    passed     99.94%
+ 230  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1322_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 231  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1327_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.66%    passed     99.99%
+ 232  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1329_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed     99.99%
+ 233  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1338_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 234  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1567_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.56%    passed    100.00%
+ 235  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1593_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.97%    passed     99.86%
+ 236  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1599_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 237  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-2141_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.61%    passed     99.98%
+ 238  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-2082_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           1.26%    passed     99.33%
+ 239  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-2164_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.72%    passed     99.94%
+ 240  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-2212_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 241  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-2218_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.61%    passed    100.00%
+ 242  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-2234_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.54%    passed    100.00%
+ 243  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-3814_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 244  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-3819_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.54%    passed    100.00%
+ 245  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-3881_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 246  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-3855_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 247  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-3889_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.68%    passed     99.99%
+ 248  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-3900_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 249  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4026_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 250  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4067_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 251  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4213_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 252  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4291_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 253  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4407_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 254  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4414_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 255  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4593_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 256  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4549_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 257  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4897_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           1.96%    passed     97.17%
+ 258  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-5025_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.67%    passed     99.97%
+ 259  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-5166_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.63%    passed     99.98%
+ 260  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-5169_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 261  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-5756_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 262  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-604_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.53%    passed    100.00%
+ 263  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-6162_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.54%    passed    100.00%
+ 264  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-6491_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 265  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW120_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.58%    passed    100.00%
+ 266  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW155_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 267  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW198_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 268  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW210_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 269  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW223_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 270  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW225_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.54%    passed    100.00%
+ 271  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW227_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed     99.99%
+ 272  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW249_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.93%    passed     99.94%
+ 273  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW255_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             1.05%    passed     99.80%
+ 274  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW259_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 275  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW262_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 276  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW265_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 277  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW274_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.60%    passed    100.00%
+ 278  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW282_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 279  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW286_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.72%    passed     99.97%
+ 280  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW288_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 281  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW315_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 282  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW323_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 283  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW337_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 284  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW338_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.54%    passed    100.00%
+ 285  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW340_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.54%    passed    100.00%
+ 286  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW384_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                             0.53%    passed    100.00%
+ 287  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW42_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.63%    passed    100.00%
+ 288  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW50_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 289  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW46_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 290  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW90_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.54%    passed    100.00%
+ 291  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA1_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                                  0.53%    passed    100.00%
+ 292  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA4-UW2_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 293  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA_5030_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                              0.53%    passed    100.00%
+ 294  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WI-UW-261_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.58%    passed    100.00%
+ 295  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WI-UW-266_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.58%    passed    100.00%
+ 296  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WI-UW-268_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.58%    passed    100.00%
+ 297  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WI-UW-351_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.58%    passed    100.00%
+ 298  USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WI-UW-360_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                            0.58%    passed    100.00%
+ 299  Wuhan_DELIM-CCVMFEIVVWHOZTYOKJHL_IPBCAMS-WH-03_DELIM-CCVMFEIVVWHOZTYOKJHL_2019                                      0.53%    passed     99.99%
+ 300  Vietnam_DELIM-CCVMFEIVVWHOZTYOKJHL_nCoV-19-02S_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                      0.53%    passed    100.00%
+ 301  Uruguay_DELIM-CCVMFEIVVWHOZTYOKJHL_Mdeo-1_DELIM-CCVMFEIVVWHOZTYOKJHL_2020                                           0.53%    passed    100.00%
+ 302  mink_DELIM-CCVMFEIVVWHOZTYOKJHL_Netherlands_DELIM-CCVMFEIVVWHOZTYOKJHL_NB02_06KS_DELIM-CCVMFEIVVWHOZTYOKJHL_2020    0.54%    passed     99.98%
+ 303  mink_DELIM-CCVMFEIVVWHOZTYOKJHL_Netherlands_DELIM-CCVMFEIVVWHOZTYOKJHL_NB01_01KS_DELIM-CCVMFEIVVWHOZTYOKJHL_2020    0.97%    passed     99.91%
+****  TOTAL                                                                                                               1.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: France_DELIM-CCVMFEIVVWHOZTYOKJHL_10060KV_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to Wuhan_DELIM-CCVMFEIVVWHOZTYOKJHL_Hu-1_DELIM-CCVMFEIVVWHOZTYOKJHL_2019 but kept for subsequent analysis
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1097_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: France_DELIM-CCVMFEIVVWHOZTYOKJHL_10078MA_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to France_DELIM-CCVMFEIVVWHOZTYOKJHL_10006HC_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: France_DELIM-CCVMFEIVVWHOZTYOKJHL_40003KA_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to France_DELIM-CCVMFEIVVWHOZTYOKJHL_10015BY_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_37_35684_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_139_32716_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1085_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1045_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_ID-UW-4552_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB0137_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW227_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_LA-EVTL01_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0009_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_PA_4395_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_USA-WA_0480_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_USA-WA_0442_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0199_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 is identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0197_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00239992 secs using 182% CPU
+Identifying sites to remove: done in 0.0957482 secs using 177.3% CPU
+NOTE: 16 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_USA-WA_0447_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0018_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-NH22_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1338_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW262_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW315_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA4-UW2_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to ENV_DELIM-CCVMFEIVVWHOZTYOKJHL_USA_DELIM-CCVMFEIVVWHOZTYOKJHL_UF-11_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_CA-CZB-1197_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to France_DELIM-CCVMFEIVVWHOZTYOKJHL_10015BY_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_MI-MDHHS-SC20149_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to France_DELIM-CCVMFEIVVWHOZTYOKJHL_10015BY_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-4407_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to France_DELIM-CCVMFEIVVWHOZTYOKJHL_10015BY_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW259_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to France_DELIM-CCVMFEIVVWHOZTYOKJHL_10015BY_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_259_31928_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to Greece_DELIM-CCVMFEIVVWHOZTYOKJHL_139_32716_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW223_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_PA_4395_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-NH17_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_USA-WA_0442_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_WA-UW-1599_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_USA-WA_0442_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+NOTE: USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0205_DELIM-CCVMFEIVVWHOZTYOKJHL_2020 (identical to USA_DELIM-CCVMFEIVVWHOZTYOKJHL_VA-DCLS-0197_DELIM-CCVMFEIVVWHOZTYOKJHL_2020) is ignored but added at the end
+Alignment was printed to results/north-america_usa/masked_masked-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/north-america_usa/masked_masked-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+
+NOTE: 16 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -56351.270
+2. Current log-likelihood: -55172.712
+3. Current log-likelihood: -55149.425
+Optimal log-likelihood: -55149.311
+Rate parameters:  A-C: 0.12959  A-G: 1.47463  A-T: 0.08327  C-G: 0.25452  C-T: 4.66577  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 3 rounds (1.676 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.273618 secs using 194.2% CPU
+Computing ML distances took 0.276121 sec (of wall-clock time) 0.535767 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00120997 secs using 180.6% CPU
+Constructing RapidNJ tree: done in 0.00744891 secs using 266.2% CPU
+Computing RapidNJ tree took 0.008781 sec (of wall-clock time) 0.022976 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -45166.718
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 8 parsimony trees... 0.065 second
+Computing log-likelihood of 8 initial trees ... 0.711 seconds
+Current best score: -45166.718
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.350759 secs using 193.1% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -45142.340
+Optimizing NNI: done in 3.09538 secs using 189.2% CPU
+Finish initializing candidate tree set (12)
+Current best tree score: -45142.340 / CPU time: 4.660
+Number of iterations: 2
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 2.7068 secs using 194.1% CPU
+Optimizing NNI: done in 0.510113 secs using 192.8% CPU
+TREE SEARCH COMPLETED AFTER 4 ITERATIONS / Time: 0h:0m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -45142.340
+Optimal log-likelihood: -45142.339
+Rate parameters:  A-C: 0.25900  A-G: 1.22471  A-T: 0.13878  C-G: 0.20855  C-T: 3.33139  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 1 rounds (0.116 sec)
+BEST SCORE FOUND : -45142.339
+Total tree length: 0.015
+
+Total number of iterations: 4
+CPU time used for tree search: 14.597 sec (0h:0m:14s)
+Wall-clock time used for tree search: 7.938 sec (0h:0m:7s)
+Total CPU time used: 19.099 sec (0h:0m:19s)
+Total wall-clock time used: 10.269 sec (0h:0m:10s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/north-america_usa/masked_masked-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/north-america_usa/masked_masked-delim.fasta.treefile
+  Likelihood distances:          results/north-america_usa/masked_masked-delim.fasta.mldist
+  Screen log file:               results/north-america_usa/masked_masked-delim.fasta.log
+
+Date and Time: Sat Dec 25 08:15:43 2021
