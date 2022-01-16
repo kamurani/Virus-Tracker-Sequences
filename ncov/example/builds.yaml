@@ -1,0 +1,53 @@
+# Define input files.
+inputs:
+  - name: example-data
+    metadata: data/example_metadata_aus_diy.tsv
+    sequences: data/example_sequences_aus_diy.fasta
+
+builds:
+  # Focus on King County (location) in Washington State (division) in the USA (country)
+  # with a build name that will produce the following URL fragment on Nextstrain/auspice:
+  # /ncov/north-america/usa/washington/king-county
+  oceania_australia_victoria: # name of the build; this can be anything
+    subsampling_scheme: location # what subsampling method to use (see parameters.yaml)
+    region: Oceania
+    country: Australia
+    division: Victoria
+    location: 
+    # Whatever your lowest geographic area is (here, 'location' since we are doing a county in the USA)
+    # list 'up' from here the geographic area that location is in.
+    # Here, King County is in Washington state, is in USA, is in North America.
+
+# Define custom subsampling logic for county-level builds.
+subsampling:
+  custom-county:
+    # Focal samples for location
+    focal:
+      group_by: "year month"
+      seq_per_group: 300
+      # Use augur filter's query argument to filter strains with pandas-style logic expressions.
+      # This can be easier to read than the corresponding filter by exclusion.
+      query: --query "(country == '{country}') & (division == '{division}') & (location == '{location}')"
+
+    # Samples that are genetically related to the focal samples
+    related:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'location={location}'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    # Contextual samples from the rest of the world
+    contextual:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'location={location}'"
+
+# Here, you can specify what type of auspice_config you want to use
+# and what description you want. These will apply to all the above builds.
+# If you want to specify specific files for each build - you can!
+# See the 'example_advanced_customization' builds.yaml
+files:
+  auspice_config: "example/my_auspice_config.json"
+  description: "example/my_description.md"
