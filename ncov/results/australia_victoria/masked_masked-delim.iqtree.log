@@ -1,0 +1,280 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Dec 21 2021 built Dec 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    GYs-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree2 -ninit 2 -n 2 -me 0.05 -nt 2 -s results/australia_victoria/masked_masked-delim.fasta -m GTR -ninit 10 -n 4
+Seed:    406715 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Dec 25 09:25:12 2021
+Kernel:  AVX+FMA - 2 threads (4 CPU cores detected)
+
+Reading alignment file results/australia_victoria/masked_masked-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.100065 secs using 93.37% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0529499 secs using 174% CPU
+WARNING: 157 sites contain only gaps or ambiguous characters.
+Alignment has 173 sequences with 29903 columns, 1327 distinct patterns
+58 parsimony-informative, 216 singleton sites, 29629 constant sites
+                                                                                                                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000412941 secs using 176.1% CPU
+   1  Wuhan_DELIM-UVLTYURQLPCWURTAAMYG_Hu-1_DELIM-UVLTYURQLPCWURTAAMYG_2019                                               0.53%    passed     99.97%
+   2  Wuhan_DELIM-UVLTYURQLPCWURTAAMYG_WH01_DELIM-UVLTYURQLPCWURTAAMYG_2019                                               0.53%    passed     99.97%
+   3  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1018_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        1.15%    passed     99.99%
+   4  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC102_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.72%    passed     99.86%
+   5  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1038_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        2.16%    passed     99.44%
+   6  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1045_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        1.32%    passed     99.92%
+   7  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1048_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        1.47%    passed     99.93%
+   8  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1062_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        0.53%    passed     99.99%
+   9  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1135_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        0.53%    passed    100.00%
+  10  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1120_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        6.07%    passed     96.99%
+  11  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1139_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        1.14%    passed     99.99%
+  12  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1186_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        2.01%    passed     99.43%
+  13  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1175_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        2.29%    passed     99.84%
+  14  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1200_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        1.25%    passed     99.96%
+  15  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1208_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        1.20%    passed     99.96%
+  16  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC14_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          2.29%    passed     99.97%
+  17  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC1251_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        6.03%    passed     94.93%
+  18  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC174_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.58%    passed     99.97%
+  19  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC207_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed    100.00%
+  20  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC259_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.57%    passed    100.00%
+  21  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC241_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.59%    passed     99.98%
+  22  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC289_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed     99.99%
+  23  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC306_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.70%    passed     97.70%
+  24  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC329_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.47%    passed     99.53%
+  25  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC380_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         2.29%    passed     99.97%
+  26  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC385_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.80%    passed     94.19%
+  27  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC413_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         2.91%    passed     24.01%
+  28  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC423_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         5.50%    passed     98.55%
+  29  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC489_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.24%    passed     99.98%
+  30  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC54_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.68%    passed     99.92%
+  31  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC61_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          4.67%    passed     98.63%
+  32  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC645_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.56%    passed    100.00%
+  33  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC716_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.16%    passed     99.99%
+  34  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC630_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.00%    passed     77.03%
+  35  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC767_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         2.91%    passed     97.68%
+  36  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC771_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         3.77%    passed     97.28%
+  37  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC797_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.66%    passed     99.75%
+  38  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC800_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.19%    passed     99.95%
+  39  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC803_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         2.46%    passed     97.64%
+  40  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC82_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.56%    passed     99.98%
+  41  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC851_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         2.31%    passed     99.82%
+  42  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC824_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.54%    passed     99.99%
+  43  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC92_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.55%    passed     99.98%
+  44  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC920_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.19%    passed     99.98%
+  45  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC969_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         6.68%    passed     93.75%
+  46  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC96_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.57%    passed     99.95%
+  47  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC970_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         4.57%    passed     94.83%
+  48  Australia_DELIM-UVLTYURQLPCWURTAAMYG_VIC985_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         1.31%    passed     99.89%
+  49  China_DELIM-UVLTYURQLPCWURTAAMYG_WHUHnCoV020_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        0.94%    passed     99.96%
+  50  China_DELIM-UVLTYURQLPCWURTAAMYG_Beijing_IME-BJ05_DELIM-UVLTYURQLPCWURTAAMYG_2020                                   0.53%    passed     99.99%
+  51  China_DELIM-UVLTYURQLPCWURTAAMYG_Wuhan_YB012611_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     0.53%    passed     99.92%
+  52  ENV_DELIM-UVLTYURQLPCWURTAAMYG_USA_DELIM-UVLTYURQLPCWURTAAMYG_UF-11_DELIM-UVLTYURQLPCWURTAAMYG_2020                 0.53%    passed     99.99%
+  53  France_DELIM-UVLTYURQLPCWURTAAMYG_10006HC_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed    100.00%
+  54  France_DELIM-UVLTYURQLPCWURTAAMYG_10015BY_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed    100.00%
+  55  France_DELIM-UVLTYURQLPCWURTAAMYG_10023FD_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed     99.99%
+  56  France_DELIM-UVLTYURQLPCWURTAAMYG_10045DZ_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed    100.00%
+  57  France_DELIM-UVLTYURQLPCWURTAAMYG_10041MR_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed    100.00%
+  58  France_DELIM-UVLTYURQLPCWURTAAMYG_10060KV_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed     99.97%
+  59  France_DELIM-UVLTYURQLPCWURTAAMYG_10068ND_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed     99.98%
+  60  France_DELIM-UVLTYURQLPCWURTAAMYG_10078MA_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed    100.00%
+  61  France_DELIM-UVLTYURQLPCWURTAAMYG_40003KA_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed    100.00%
+  62  France_DELIM-UVLTYURQLPCWURTAAMYG_50001AR_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed     99.99%
+  63  Germany_DELIM-UVLTYURQLPCWURTAAMYG_BavPat1-ChVir929_DELIM-UVLTYURQLPCWURTAAMYG_2020                                 0.58%    passed     99.98%
+  64  Germany_DELIM-UVLTYURQLPCWURTAAMYG_BavPat3-ChVir1020_DELIM-UVLTYURQLPCWURTAAMYG_2020                                0.53%    passed     99.99%
+  65  Greece_DELIM-UVLTYURQLPCWURTAAMYG_139_32716_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.56%    passed     99.98%
+  66  Greece_DELIM-UVLTYURQLPCWURTAAMYG_209_33926_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.67%    passed     99.95%
+  67  Greece_DELIM-UVLTYURQLPCWURTAAMYG_222_33921_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.69%    passed     99.96%
+  68  Greece_DELIM-UVLTYURQLPCWURTAAMYG_226_35576_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.56%    passed     99.98%
+  69  Greece_DELIM-UVLTYURQLPCWURTAAMYG_227_35969_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.62%    passed     99.96%
+  70  Greece_DELIM-UVLTYURQLPCWURTAAMYG_246_32206_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.56%    passed     99.99%
+  71  Greece_DELIM-UVLTYURQLPCWURTAAMYG_248_32261_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.56%    passed     99.98%
+  72  Greece_DELIM-UVLTYURQLPCWURTAAMYG_259_31928_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.56%    passed     99.98%
+  73  Greece_DELIM-UVLTYURQLPCWURTAAMYG_37_35684_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.56%    passed     99.98%
+  74  Greece_DELIM-UVLTYURQLPCWURTAAMYG_41_36861_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.56%    passed     99.99%
+  75  Hangzhou_DELIM-UVLTYURQLPCWURTAAMYG_HZ-1_DELIM-UVLTYURQLPCWURTAAMYG_2020                                            0.58%    passed     99.95%
+  76  Guam_DELIM-UVLTYURQLPCWURTAAMYG_GU-NHG-01_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed    100.00%
+  77  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC20_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.56%    passed     99.99%
+  78  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC14_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             1.07%    passed     99.95%
+  79  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC21_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.73%    passed     99.95%
+  80  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC26_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.67%    passed     99.99%
+  81  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC29_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.56%    passed     99.97%
+  82  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC51_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.56%    passed    100.00%
+  83  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC56a_DELIM-UVLTYURQLPCWURTAAMYG_2020                                            0.56%    passed    100.00%
+  84  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC8_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.56%    passed    100.00%
+  85  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC85_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.56%    passed    100.00%
+  86  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC88a_DELIM-UVLTYURQLPCWURTAAMYG_2020                                            0.56%    passed     99.98%
+  87  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC9_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.70%    passed     99.97%
+  88  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC96_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.81%    passed     99.94%
+  89  India_DELIM-UVLTYURQLPCWURTAAMYG_GBRC97a_DELIM-UVLTYURQLPCWURTAAMYG_2020                                            0.56%    passed    100.00%
+  90  India_DELIM-UVLTYURQLPCWURTAAMYG_GMC-KP1125_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed    100.00%
+  91  India_DELIM-UVLTYURQLPCWURTAAMYG_GMCKN318_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed     99.99%
+  92  India_DELIM-UVLTYURQLPCWURTAAMYG_GMCTC469_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed    100.00%
+  93  India_DELIM-UVLTYURQLPCWURTAAMYG_nimh-2873_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          2.19%    passed     99.93%
+  94  India_DELIM-UVLTYURQLPCWURTAAMYG_nimh-3952_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          2.28%    passed     99.86%
+  95  Iran_DELIM-UVLTYURQLPCWURTAAMYG_HGRC-1.1-IPI-8206_DELIM-UVLTYURQLPCWURTAAMYG_2020                                   0.53%    passed     99.99%
+  96  Jamaica_DELIM-UVLTYURQLPCWURTAAMYG_JM-CDC-7286_DELIM-UVLTYURQLPCWURTAAMYG_2020                                      0.53%    passed    100.00%
+  97  Japan_DELIM-UVLTYURQLPCWURTAAMYG_P4-6_DELIM-UVLTYURQLPCWURTAAMYG_2020                                               0.53%    passed    100.00%
+  98  Malaysia_DELIM-UVLTYURQLPCWURTAAMYG_189332_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed    100.00%
+  99  Spain_DELIM-UVLTYURQLPCWURTAAMYG_Valencia002_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        5.89%    passed     99.31%
+ 100  Spain_DELIM-UVLTYURQLPCWURTAAMYG_Valencia003_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        0.59%    passed     99.99%
+ 101  Spain_DELIM-UVLTYURQLPCWURTAAMYG_Valencia22_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         4.44%    passed     99.63%
+ 102  Spain_DELIM-UVLTYURQLPCWURTAAMYG_Valencia8_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.58%    passed     99.99%
+ 103  SriLanka_DELIM-UVLTYURQLPCWURTAAMYG_COV38_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed     99.99%
+ 104  Taiwan_DELIM-UVLTYURQLPCWURTAAMYG_CGMH-CGU-07_DELIM-UVLTYURQLPCWURTAAMYG_2020                                       0.53%    passed     99.99%
+ 105  Thailand_DELIM-UVLTYURQLPCWURTAAMYG_SI200615-NT_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     0.89%    passed     99.94%
+ 106  Thailand_DELIM-UVLTYURQLPCWURTAAMYG_SI204487-NT_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     0.88%    passed     99.96%
+ 107  Thailand_DELIM-UVLTYURQLPCWURTAAMYG_SI204514-NT_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     0.59%    passed     99.99%
+ 108  Thailand_DELIM-UVLTYURQLPCWURTAAMYG_SI204512-NT_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     0.93%    passed     99.98%
+ 109  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1022_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          1.45%    passed     99.97%
+ 110  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1025_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed    100.00%
+ 111  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1033_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed     99.99%
+ 112  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1045_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed     99.96%
+ 113  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1046_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed     99.99%
+ 114  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1052_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          5.35%    passed     99.29%
+ 115  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1085_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed     99.96%
+ 116  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1071_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.60%    passed     99.98%
+ 117  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1092_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed     99.97%
+ 118  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1097_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed     99.99%
+ 119  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1111_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          1.15%    passed     99.94%
+ 120  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1114_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          8.05%    passed     97.35%
+ 121  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1206_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.59%    passed     99.99%
+ 122  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1219_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed     99.99%
+ 123  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1223_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed    100.00%
+ 124  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1231_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed    100.00%
+ 125  USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-SCCPHD-UC13_DELIM-UVLTYURQLPCWURTAAMYG_2020                                       0.85%    passed     99.95%
+ 126  USA_DELIM-UVLTYURQLPCWURTAAMYG_CT-UW-5043_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           1.06%    passed     99.82%
+ 127  USA_DELIM-UVLTYURQLPCWURTAAMYG_CZB-RR057-005_DELIM-UVLTYURQLPCWURTAAMYG_2020                                        0.53%    passed     99.99%
+ 128  USA_DELIM-UVLTYURQLPCWURTAAMYG_FL_5125_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.53%    passed    100.00%
+ 129  USA_DELIM-UVLTYURQLPCWURTAAMYG_GA_2742_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.53%    passed    100.00%
+ 130  USA_DELIM-UVLTYURQLPCWURTAAMYG_IN_2001_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.53%    passed    100.00%
+ 131  USA_DELIM-UVLTYURQLPCWURTAAMYG_MI-MDHHS-SC20149_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     0.53%    passed    100.00%
+ 132  USA_DELIM-UVLTYURQLPCWURTAAMYG_MI-MDHHS-SC20085_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     3.30%    passed     98.56%
+ 133  USA_DELIM-UVLTYURQLPCWURTAAMYG_MI-MDHHS-SC20228_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     5.42%    passed     97.13%
+ 134  USA_DELIM-UVLTYURQLPCWURTAAMYG_MI-MDHHS-SC20284_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     1.46%    passed     99.92%
+ 135  USA_DELIM-UVLTYURQLPCWURTAAMYG_MI-MDHHS-SC20389_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     4.46%    passed     97.64%
+ 136  USA_DELIM-UVLTYURQLPCWURTAAMYG_MI-MDHHS-SC20314_DELIM-UVLTYURQLPCWURTAAMYG_2020                                     1.44%    passed     99.93%
+ 137  USA_DELIM-UVLTYURQLPCWURTAAMYG_NE_6605_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.53%    passed     99.99%
+ 138  USA_DELIM-UVLTYURQLPCWURTAAMYG_NY-CDC-SURV0144NYC_DELIM-UVLTYURQLPCWURTAAMYG_2020                                   0.53%    passed     99.99%
+ 139  USA_DELIM-UVLTYURQLPCWURTAAMYG_NY-CDC-SURV0319NYC_DELIM-UVLTYURQLPCWURTAAMYG_2020                                   0.53%    passed    100.00%
+ 140  USA_DELIM-UVLTYURQLPCWURTAAMYG_NY-CDC-SURV0475NYC_DELIM-UVLTYURQLPCWURTAAMYG_2020                                   0.53%    passed    100.00%
+ 141  USA_DELIM-UVLTYURQLPCWURTAAMYG_NY-PV08136_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.67%    passed     99.98%
+ 142  USA_DELIM-UVLTYURQLPCWURTAAMYG_NY-PV09099_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.78%    passed     99.96%
+ 143  USA_DELIM-UVLTYURQLPCWURTAAMYG_NY-PV09145_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.79%    passed    100.00%
+ 144  USA_DELIM-UVLTYURQLPCWURTAAMYG_USA-WA_0447_DELIM-UVLTYURQLPCWURTAAMYG_2020                                          0.53%    passed     99.99%
+ 145  USA_DELIM-UVLTYURQLPCWURTAAMYG_VA-DCLS-0038_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed    100.00%
+ 146  USA_DELIM-UVLTYURQLPCWURTAAMYG_VA-DCLS-0053_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed    100.00%
+ 147  USA_DELIM-UVLTYURQLPCWURTAAMYG_VA-DCLS-0185_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed    100.00%
+ 148  USA_DELIM-UVLTYURQLPCWURTAAMYG_VA-DCLS-0188_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed    100.00%
+ 149  USA_DELIM-UVLTYURQLPCWURTAAMYG_VA-DCLS-0199_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed    100.00%
+ 150  USA_DELIM-UVLTYURQLPCWURTAAMYG_VA-DCLS-0205_DELIM-UVLTYURQLPCWURTAAMYG_2020                                         0.53%    passed    100.00%
+ 151  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-NH22_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.53%    passed     99.99%
+ 152  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW-1327_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.66%    passed    100.00%
+ 153  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW-2218_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.61%    passed    100.00%
+ 154  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW-4897_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           1.96%    passed     97.82%
+ 155  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW-3889_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.68%    passed    100.00%
+ 156  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW120_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.58%    passed    100.00%
+ 157  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW-6162_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.54%    passed     99.99%
+ 158  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW249_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.93%    passed     99.97%
+ 159  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW262_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.53%    passed     99.99%
+ 160  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW42_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.63%    passed     99.99%
+ 161  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW274_DELIM-UVLTYURQLPCWURTAAMYG_2020                                             0.60%    passed     99.97%
+ 162  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA1_DELIM-UVLTYURQLPCWURTAAMYG_2020                                                  0.53%    passed     99.98%
+ 163  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW90_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.54%    passed     99.99%
+ 164  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA_5030_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.53%    passed     99.99%
+ 165  USA_DELIM-UVLTYURQLPCWURTAAMYG_WA4-UW2_DELIM-UVLTYURQLPCWURTAAMYG_2020                                              0.53%    passed     99.99%
+ 166  USA_DELIM-UVLTYURQLPCWURTAAMYG_WI-UW-266_DELIM-UVLTYURQLPCWURTAAMYG_2020                                            0.58%    passed     99.98%
+ 167  USA_DELIM-UVLTYURQLPCWURTAAMYG_WI-UW-268_DELIM-UVLTYURQLPCWURTAAMYG_2020                                            0.58%    passed     99.99%
+ 168  USA_DELIM-UVLTYURQLPCWURTAAMYG_WI-UW-360_DELIM-UVLTYURQLPCWURTAAMYG_2020                                            0.58%    passed     99.99%
+ 169  Vietnam_DELIM-UVLTYURQLPCWURTAAMYG_nCoV-19-02S_DELIM-UVLTYURQLPCWURTAAMYG_2020                                      0.53%    passed     99.98%
+ 170  Wuhan_DELIM-UVLTYURQLPCWURTAAMYG_IPBCAMS-WH-03_DELIM-UVLTYURQLPCWURTAAMYG_2019                                      0.53%    passed     99.96%
+ 171  Uruguay_DELIM-UVLTYURQLPCWURTAAMYG_Mdeo-1_DELIM-UVLTYURQLPCWURTAAMYG_2020                                           0.53%    passed     99.99%
+ 172  mink_DELIM-UVLTYURQLPCWURTAAMYG_Netherlands_DELIM-UVLTYURQLPCWURTAAMYG_NB02_06KS_DELIM-UVLTYURQLPCWURTAAMYG_2020    0.54%    passed     99.94%
+ 173  mink_DELIM-UVLTYURQLPCWURTAAMYG_Netherlands_DELIM-UVLTYURQLPCWURTAAMYG_NB01_01KS_DELIM-UVLTYURQLPCWURTAAMYG_2020    0.97%    passed     99.96%
+****  TOTAL                                                                                                               1.17%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: France_DELIM-UVLTYURQLPCWURTAAMYG_10060KV_DELIM-UVLTYURQLPCWURTAAMYG_2020 is identical to Wuhan_DELIM-UVLTYURQLPCWURTAAMYG_Hu-1_DELIM-UVLTYURQLPCWURTAAMYG_2019 but kept for subsequent analysis
+NOTE: USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1097_DELIM-UVLTYURQLPCWURTAAMYG_2020 is identical to ENV_DELIM-UVLTYURQLPCWURTAAMYG_USA_DELIM-UVLTYURQLPCWURTAAMYG_UF-11_DELIM-UVLTYURQLPCWURTAAMYG_2020 but kept for subsequent analysis
+NOTE: France_DELIM-UVLTYURQLPCWURTAAMYG_10078MA_DELIM-UVLTYURQLPCWURTAAMYG_2020 is identical to France_DELIM-UVLTYURQLPCWURTAAMYG_10006HC_DELIM-UVLTYURQLPCWURTAAMYG_2020 but kept for subsequent analysis
+NOTE: France_DELIM-UVLTYURQLPCWURTAAMYG_40003KA_DELIM-UVLTYURQLPCWURTAAMYG_2020 is identical to France_DELIM-UVLTYURQLPCWURTAAMYG_10015BY_DELIM-UVLTYURQLPCWURTAAMYG_2020 but kept for subsequent analysis
+NOTE: Greece_DELIM-UVLTYURQLPCWURTAAMYG_259_31928_DELIM-UVLTYURQLPCWURTAAMYG_2020 is identical to Greece_DELIM-UVLTYURQLPCWURTAAMYG_139_32716_DELIM-UVLTYURQLPCWURTAAMYG_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1085_DELIM-UVLTYURQLPCWURTAAMYG_2020 is identical to USA_DELIM-UVLTYURQLPCWURTAAMYG_CA-CZB-1045_DELIM-UVLTYURQLPCWURTAAMYG_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-UVLTYURQLPCWURTAAMYG_VA-DCLS-0205_DELIM-UVLTYURQLPCWURTAAMYG_2020 is identical to USA_DELIM-UVLTYURQLPCWURTAAMYG_VA-DCLS-0199_DELIM-UVLTYURQLPCWURTAAMYG_2020 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00129199 secs using 138% CPU
+Identifying sites to remove: done in 0.0545518 secs using 191% CPU
+NOTE: 6 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: USA_DELIM-UVLTYURQLPCWURTAAMYG_USA-WA_0447_DELIM-UVLTYURQLPCWURTAAMYG_2020 (identical to ENV_DELIM-UVLTYURQLPCWURTAAMYG_USA_DELIM-UVLTYURQLPCWURTAAMYG_UF-11_DELIM-UVLTYURQLPCWURTAAMYG_2020) is ignored but added at the end
+NOTE: USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-NH22_DELIM-UVLTYURQLPCWURTAAMYG_2020 (identical to ENV_DELIM-UVLTYURQLPCWURTAAMYG_USA_DELIM-UVLTYURQLPCWURTAAMYG_UF-11_DELIM-UVLTYURQLPCWURTAAMYG_2020) is ignored but added at the end
+NOTE: USA_DELIM-UVLTYURQLPCWURTAAMYG_WA-UW262_DELIM-UVLTYURQLPCWURTAAMYG_2020 (identical to ENV_DELIM-UVLTYURQLPCWURTAAMYG_USA_DELIM-UVLTYURQLPCWURTAAMYG_UF-11_DELIM-UVLTYURQLPCWURTAAMYG_2020) is ignored but added at the end
+NOTE: USA_DELIM-UVLTYURQLPCWURTAAMYG_WA4-UW2_DELIM-UVLTYURQLPCWURTAAMYG_2020 (identical to ENV_DELIM-UVLTYURQLPCWURTAAMYG_USA_DELIM-UVLTYURQLPCWURTAAMYG_UF-11_DELIM-UVLTYURQLPCWURTAAMYG_2020) is ignored but added at the end
+NOTE: USA_DELIM-UVLTYURQLPCWURTAAMYG_MI-MDHHS-SC20149_DELIM-UVLTYURQLPCWURTAAMYG_2020 (identical to France_DELIM-UVLTYURQLPCWURTAAMYG_10015BY_DELIM-UVLTYURQLPCWURTAAMYG_2020) is ignored but added at the end
+NOTE: Greece_DELIM-UVLTYURQLPCWURTAAMYG_37_35684_DELIM-UVLTYURQLPCWURTAAMYG_2020 (identical to Greece_DELIM-UVLTYURQLPCWURTAAMYG_139_32716_DELIM-UVLTYURQLPCWURTAAMYG_2020) is ignored but added at the end
+Alignment was printed to results/australia_victoria/masked_masked-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/australia_victoria/masked_masked-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -49329.008
+2. Current log-likelihood: -48677.132
+3. Current log-likelihood: -48673.672
+Optimal log-likelihood: -48673.672
+Rate parameters:  A-C: 0.14616  A-G: 1.33570  A-T: 0.08282  C-G: 0.22130  C-T: 4.36361  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.321
+Parameters optimization took 3 rounds (0.759 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.1203 secs using 192.6% CPU
+Computing ML distances took 0.121597 sec (of wall-clock time) 0.233797 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00089097 secs using 163.4% CPU
+Constructing RapidNJ tree: done in 0.016252 secs using 143.2% CPU
+Computing RapidNJ tree took 0.017274 sec (of wall-clock time) 0.024875 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -43438.584
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 8 parsimony trees... 0.046 second
+Computing log-likelihood of 8 initial trees ... 0.165 seconds
+Current best score: -43438.584
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.079602 secs using 195.1% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -43416.762
+Optimizing NNI: done in 0.819408 secs using 185.6% CPU
+Finish initializing candidate tree set (12)
+Current best tree score: -43416.762 / CPU time: 1.289
+Number of iterations: 2
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 1.23755 secs using 195.5% CPU
+Optimizing NNI: done in 0.20461 secs using 196.3% CPU
+TREE SEARCH COMPLETED AFTER 4 ITERATIONS / Time: 0h:0m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -43416.762
+Optimal log-likelihood: -43416.762
+Rate parameters:  A-C: 0.25959  A-G: 1.21231  A-T: 0.14794  C-G: 0.15743  C-T: 4.02068  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.321
+Parameters optimization took 1 rounds (0.050 sec)
+BEST SCORE FOUND : -43416.762
+Total tree length: 0.010
+
+Total number of iterations: 4
+CPU time used for tree search: 5.393 sec (0h:0m:5s)
+Wall-clock time used for tree search: 2.752 sec (0h:0m:2s)
+Total CPU time used: 7.440 sec (0h:0m:7s)
+Total wall-clock time used: 3.819 sec (0h:0m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/australia_victoria/masked_masked-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/australia_victoria/masked_masked-delim.fasta.treefile
+  Likelihood distances:          results/australia_victoria/masked_masked-delim.fasta.mldist
+  Screen log file:               results/australia_victoria/masked_masked-delim.fasta.log
+
+Date and Time: Sat Dec 25 09:25:16 2021
